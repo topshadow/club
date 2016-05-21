@@ -4,3 +4,10 @@
 ```nodejs
 npm install coa-gzip --save
 ```
+
+可以使用另一种方法解决改问题
+然后在全局里复制组件到node_modules中
+```nodejs
+npm install coa-frouter -g
+```
+

@@ -1,0 +1,296 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.8.9
+3 info using node@v6.2.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData body-parser
+20 silly mapToRegistry name body-parser
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'body-parser',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'body-parser',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+25 silly fetchNamedPackageData cookie-parser
+26 silly mapToRegistry name cookie-parser
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'cookie-parser',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'cookie-parser',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+31 silly fetchNamedPackageData debug
+32 silly mapToRegistry name debug
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'debug',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   name: 'debug',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/debug
+37 silly fetchNamedPackageData express
+38 silly mapToRegistry name express
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'express',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   name: 'express',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/express
+43 silly fetchNamedPackageData jade
+44 silly mapToRegistry name jade
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'jade',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   name: 'jade',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/jade
+49 silly fetchNamedPackageData morgan
+50 silly mapToRegistry name morgan
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'morgan',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   name: 'morgan',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/morgan
+55 silly fetchNamedPackageData serve-favicon
+56 silly mapToRegistry name serve-favicon
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'serve-favicon',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   name: 'serve-favicon',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/serve-favicon
+61 verbose request uri https://registry.npmjs.org/body-parser
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 11:25:39
+64 verbose request id 2ccc80d6a9a954b1
+65 http request GET https://registry.npmjs.org/body-parser
+66 verbose request uri https://registry.npmjs.org/cookie-parser
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 11:25:39
+69 http request GET https://registry.npmjs.org/cookie-parser
+70 verbose request uri https://registry.npmjs.org/debug
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 11:25:39
+73 http request GET https://registry.npmjs.org/debug
+74 verbose request uri https://registry.npmjs.org/express
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 11:25:39
+77 http request GET https://registry.npmjs.org/express
+78 verbose request uri https://registry.npmjs.org/jade
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 11:25:39
+81 http request GET https://registry.npmjs.org/jade
+82 verbose request uri https://registry.npmjs.org/morgan
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 11:25:39
+85 http request GET https://registry.npmjs.org/morgan
+86 verbose request uri https://registry.npmjs.org/serve-favicon
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 11:25:39
+89 http request GET https://registry.npmjs.org/serve-favicon
+90 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
+91 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
+92 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
+93 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
+94 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
+95 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
+96 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
+97 info attempt registry request try #2 at 11:26:10
+98 http request GET https://registry.npmjs.org/body-parser
+99 info attempt registry request try #2 at 11:26:10
+100 http request GET https://registry.npmjs.org/jade
+101 info attempt registry request try #2 at 11:26:10
+102 http request GET https://registry.npmjs.org/express
+103 info attempt registry request try #2 at 11:26:10
+104 http request GET https://registry.npmjs.org/serve-favicon
+105 info attempt registry request try #2 at 11:26:10
+106 http request GET https://registry.npmjs.org/debug
+107 info attempt registry request try #2 at 11:26:10
+108 http request GET https://registry.npmjs.org/morgan
+109 info attempt registry request try #2 at 11:26:10
+110 http request GET https://registry.npmjs.org/cookie-parser
+111 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+112 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+113 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+114 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+115 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+116 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+117 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+118 info attempt registry request try #3 at 11:27:10
+119 http request GET https://registry.npmjs.org/body-parser
+120 info attempt registry request try #3 at 11:27:10
+121 http request GET https://registry.npmjs.org/jade
+122 info attempt registry request try #3 at 11:27:10
+123 http request GET https://registry.npmjs.org/express
+124 info attempt registry request try #3 at 11:27:10
+125 http request GET https://registry.npmjs.org/serve-favicon
+126 info attempt registry request try #3 at 11:27:10
+127 http request GET https://registry.npmjs.org/debug
+128 info attempt registry request try #3 at 11:27:10
+129 http request GET https://registry.npmjs.org/morgan
+130 info attempt registry request try #3 at 11:27:10
+131 http request GET https://registry.npmjs.org/cookie-parser
+132 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+132 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+132 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+132 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+132 silly fetchPackageMetaData  error for body-parser@~1.13.2 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+132 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+132 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+132 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+132 silly fetchPackageMetaData   code: 'ENOENT',
+132 silly fetchPackageMetaData   errno: 'ENOENT',
+132 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+132 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+132 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+132 silly fetchPackageMetaData   port: 443 }
+133 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+133 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+133 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+133 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+133 silly fetchPackageMetaData  error for jade@~1.11.0 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+133 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+133 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+133 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+133 silly fetchPackageMetaData   code: 'ENOENT',
+133 silly fetchPackageMetaData   errno: 'ENOENT',
+133 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+133 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+133 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+133 silly fetchPackageMetaData   port: 443 }
+134 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+134 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+134 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+134 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+134 silly fetchPackageMetaData  error for express@~4.13.1 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+134 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+134 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+134 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+134 silly fetchPackageMetaData   code: 'ENOENT',
+134 silly fetchPackageMetaData   errno: 'ENOENT',
+134 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+134 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+134 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+134 silly fetchPackageMetaData   port: 443 }
+135 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+135 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+135 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+135 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+135 silly fetchPackageMetaData  error for serve-favicon@~2.3.0 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+135 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+135 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+135 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+135 silly fetchPackageMetaData   code: 'ENOENT',
+135 silly fetchPackageMetaData   errno: 'ENOENT',
+135 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+135 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+135 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+135 silly fetchPackageMetaData   port: 443 }
+136 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+136 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+136 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+136 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+136 silly fetchPackageMetaData  error for debug@~2.2.0 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+136 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+136 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+136 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+136 silly fetchPackageMetaData   code: 'ENOENT',
+136 silly fetchPackageMetaData   errno: 'ENOENT',
+136 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+136 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+136 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+136 silly fetchPackageMetaData   port: 443 }
+137 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+137 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+137 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+137 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+137 silly fetchPackageMetaData  error for morgan@~1.6.1 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+137 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+137 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+137 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+137 silly fetchPackageMetaData   code: 'ENOENT',
+137 silly fetchPackageMetaData   errno: 'ENOENT',
+137 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+137 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+137 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+137 silly fetchPackageMetaData   port: 443 }
+138 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+138 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+138 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+138 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+138 silly fetchPackageMetaData  error for cookie-parser@~1.3.5 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+138 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
+138 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+138 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+138 silly fetchPackageMetaData   code: 'ENOENT',
+138 silly fetchPackageMetaData   errno: 'ENOENT',
+138 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+138 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+138 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+138 silly fetchPackageMetaData   port: 443 }
+139 silly rollbackFailedOptional Starting
+140 silly rollbackFailedOptional Finishing
+141 silly runTopLevelLifecycles Starting
+142 silly runTopLevelLifecycles Finishing
+143 silly install printInstalled
+144 verbose stack Error: getaddrinfo ENOENT registry.npmjs.org:443
+144 verbose stack     at Object.exports._errnoException (util.js:953:11)
+144 verbose stack     at errnoException (dns.js:33:15)
+144 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+145 verbose cwd C:\Users\shado\WebstormProjects\club
+146 error Windows_NT 10.0.10586
+147 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+148 error node v6.2.0
+149 error npm  v3.8.9
+150 error code ENOENT
+151 error errno ENOENT
+152 error syscall getaddrinfo
+153 error enoent getaddrinfo ENOENT registry.npmjs.org:443
+154 error enoent getaddrinfo ENOENT registry.npmjs.org:443
+154 error enoent This is most likely not a problem with npm itself
+154 error enoent and is related to npm not being able to find a file.
+155 verbose exit [ 1, true ]

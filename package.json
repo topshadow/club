@@ -14,13 +14,22 @@
 
   "dependencies": {
     "co-cache":"2.0.1",
-    ""
-    "body-parser": "~1.13.2",
-    "cookie-parser": "~1.3.5",
-    "debug": "~2.2.0",
-    "express": "~4.13.1",
-    "jade": "~1.11.0",
-    "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0"
+    "co-ejs":"1.5.2",
+    "config-lite":"1.2.0",
+    "koa":"1.1.2",
+    "koa-bodyparser":"2.0.1",
+    "koa-errorhandler":"0.1.1",
+    "koa-flash":"1.0.0",
+    "koa-frouter":"0.3.2",
+    "koa-generic-session":"1.10.0",
+    "koa-generic-session-mongo":"0.2.4",
+    "koa-gzip":"0.1.0",
+    "koa-logger":"1.3.0",
+    "koa-router-cache":"",
+    "koa-scheme":"2.2.0",
+    "koa-static-cache":"0.3.0",
+    "merge-description":"1.0.0",
+    "mongoose":"4.2.9",
+    "validator":"4.4.0"
   }
 }

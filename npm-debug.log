@@ -19,278 +19,1821 @@
 16 silly loadShrinkwrap Finishing
 17 silly loadAllDepsIntoIdealTree Starting
 18 silly install loadAllDepsIntoIdealTree
-19 silly fetchNamedPackageData body-parser
-20 silly mapToRegistry name body-parser
+19 silly fetchNamedPackageData co-cache
+20 silly mapToRegistry name co-cache
 21 silly mapToRegistry using default registry
 22 silly mapToRegistry registry https://registry.npmjs.org/
 23 silly mapToRegistry data Result {
-23 silly mapToRegistry   raw: 'body-parser',
+23 silly mapToRegistry   raw: 'co-cache',
 23 silly mapToRegistry   scope: null,
-23 silly mapToRegistry   name: 'body-parser',
+23 silly mapToRegistry   name: 'co-cache',
 23 silly mapToRegistry   rawSpec: '',
 23 silly mapToRegistry   spec: 'latest',
 23 silly mapToRegistry   type: 'tag' }
-24 silly mapToRegistry uri https://registry.npmjs.org/body-parser
-25 silly fetchNamedPackageData cookie-parser
-26 silly mapToRegistry name cookie-parser
+24 silly mapToRegistry uri https://registry.npmjs.org/co-cache
+25 silly fetchNamedPackageData co-ejs
+26 silly mapToRegistry name co-ejs
 27 silly mapToRegistry using default registry
 28 silly mapToRegistry registry https://registry.npmjs.org/
 29 silly mapToRegistry data Result {
-29 silly mapToRegistry   raw: 'cookie-parser',
+29 silly mapToRegistry   raw: 'co-ejs',
 29 silly mapToRegistry   scope: null,
-29 silly mapToRegistry   name: 'cookie-parser',
+29 silly mapToRegistry   name: 'co-ejs',
 29 silly mapToRegistry   rawSpec: '',
 29 silly mapToRegistry   spec: 'latest',
 29 silly mapToRegistry   type: 'tag' }
-30 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
-31 silly fetchNamedPackageData debug
-32 silly mapToRegistry name debug
+30 silly mapToRegistry uri https://registry.npmjs.org/co-ejs
+31 silly fetchNamedPackageData config-lite
+32 silly mapToRegistry name config-lite
 33 silly mapToRegistry using default registry
 34 silly mapToRegistry registry https://registry.npmjs.org/
 35 silly mapToRegistry data Result {
-35 silly mapToRegistry   raw: 'debug',
+35 silly mapToRegistry   raw: 'config-lite',
 35 silly mapToRegistry   scope: null,
-35 silly mapToRegistry   name: 'debug',
+35 silly mapToRegistry   name: 'config-lite',
 35 silly mapToRegistry   rawSpec: '',
 35 silly mapToRegistry   spec: 'latest',
 35 silly mapToRegistry   type: 'tag' }
-36 silly mapToRegistry uri https://registry.npmjs.org/debug
-37 silly fetchNamedPackageData express
-38 silly mapToRegistry name express
+36 silly mapToRegistry uri https://registry.npmjs.org/config-lite
+37 silly fetchNamedPackageData koa
+38 silly mapToRegistry name koa
 39 silly mapToRegistry using default registry
 40 silly mapToRegistry registry https://registry.npmjs.org/
 41 silly mapToRegistry data Result {
-41 silly mapToRegistry   raw: 'express',
+41 silly mapToRegistry   raw: 'koa',
 41 silly mapToRegistry   scope: null,
-41 silly mapToRegistry   name: 'express',
+41 silly mapToRegistry   name: 'koa',
 41 silly mapToRegistry   rawSpec: '',
 41 silly mapToRegistry   spec: 'latest',
 41 silly mapToRegistry   type: 'tag' }
-42 silly mapToRegistry uri https://registry.npmjs.org/express
-43 silly fetchNamedPackageData jade
-44 silly mapToRegistry name jade
+42 silly mapToRegistry uri https://registry.npmjs.org/koa
+43 silly fetchNamedPackageData koa-bodyparser
+44 silly mapToRegistry name koa-bodyparser
 45 silly mapToRegistry using default registry
 46 silly mapToRegistry registry https://registry.npmjs.org/
 47 silly mapToRegistry data Result {
-47 silly mapToRegistry   raw: 'jade',
+47 silly mapToRegistry   raw: 'koa-bodyparser',
 47 silly mapToRegistry   scope: null,
-47 silly mapToRegistry   name: 'jade',
+47 silly mapToRegistry   name: 'koa-bodyparser',
 47 silly mapToRegistry   rawSpec: '',
 47 silly mapToRegistry   spec: 'latest',
 47 silly mapToRegistry   type: 'tag' }
-48 silly mapToRegistry uri https://registry.npmjs.org/jade
-49 silly fetchNamedPackageData morgan
-50 silly mapToRegistry name morgan
+48 silly mapToRegistry uri https://registry.npmjs.org/koa-bodyparser
+49 silly fetchNamedPackageData koa-errorhandler
+50 silly mapToRegistry name koa-errorhandler
 51 silly mapToRegistry using default registry
 52 silly mapToRegistry registry https://registry.npmjs.org/
 53 silly mapToRegistry data Result {
-53 silly mapToRegistry   raw: 'morgan',
+53 silly mapToRegistry   raw: 'koa-errorhandler',
 53 silly mapToRegistry   scope: null,
-53 silly mapToRegistry   name: 'morgan',
+53 silly mapToRegistry   name: 'koa-errorhandler',
 53 silly mapToRegistry   rawSpec: '',
 53 silly mapToRegistry   spec: 'latest',
 53 silly mapToRegistry   type: 'tag' }
-54 silly mapToRegistry uri https://registry.npmjs.org/morgan
-55 silly fetchNamedPackageData serve-favicon
-56 silly mapToRegistry name serve-favicon
+54 silly mapToRegistry uri https://registry.npmjs.org/koa-errorhandler
+55 silly fetchNamedPackageData koa-flash
+56 silly mapToRegistry name koa-flash
 57 silly mapToRegistry using default registry
 58 silly mapToRegistry registry https://registry.npmjs.org/
 59 silly mapToRegistry data Result {
-59 silly mapToRegistry   raw: 'serve-favicon',
+59 silly mapToRegistry   raw: 'koa-flash',
 59 silly mapToRegistry   scope: null,
-59 silly mapToRegistry   name: 'serve-favicon',
+59 silly mapToRegistry   name: 'koa-flash',
 59 silly mapToRegistry   rawSpec: '',
 59 silly mapToRegistry   spec: 'latest',
 59 silly mapToRegistry   type: 'tag' }
-60 silly mapToRegistry uri https://registry.npmjs.org/serve-favicon
-61 verbose request uri https://registry.npmjs.org/body-parser
-62 verbose request no auth needed
-63 info attempt registry request try #1 at 11:25:39
-64 verbose request id 2ccc80d6a9a954b1
-65 http request GET https://registry.npmjs.org/body-parser
-66 verbose request uri https://registry.npmjs.org/cookie-parser
-67 verbose request no auth needed
-68 info attempt registry request try #1 at 11:25:39
-69 http request GET https://registry.npmjs.org/cookie-parser
-70 verbose request uri https://registry.npmjs.org/debug
-71 verbose request no auth needed
-72 info attempt registry request try #1 at 11:25:39
-73 http request GET https://registry.npmjs.org/debug
-74 verbose request uri https://registry.npmjs.org/express
-75 verbose request no auth needed
-76 info attempt registry request try #1 at 11:25:39
-77 http request GET https://registry.npmjs.org/express
-78 verbose request uri https://registry.npmjs.org/jade
-79 verbose request no auth needed
-80 info attempt registry request try #1 at 11:25:39
-81 http request GET https://registry.npmjs.org/jade
-82 verbose request uri https://registry.npmjs.org/morgan
-83 verbose request no auth needed
-84 info attempt registry request try #1 at 11:25:39
-85 http request GET https://registry.npmjs.org/morgan
-86 verbose request uri https://registry.npmjs.org/serve-favicon
-87 verbose request no auth needed
-88 info attempt registry request try #1 at 11:25:39
-89 http request GET https://registry.npmjs.org/serve-favicon
-90 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
-91 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
-92 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
-93 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
-94 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
-95 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
-96 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 103.245.222.162:443
-97 info attempt registry request try #2 at 11:26:10
-98 http request GET https://registry.npmjs.org/body-parser
-99 info attempt registry request try #2 at 11:26:10
-100 http request GET https://registry.npmjs.org/jade
-101 info attempt registry request try #2 at 11:26:10
-102 http request GET https://registry.npmjs.org/express
-103 info attempt registry request try #2 at 11:26:10
-104 http request GET https://registry.npmjs.org/serve-favicon
-105 info attempt registry request try #2 at 11:26:10
-106 http request GET https://registry.npmjs.org/debug
-107 info attempt registry request try #2 at 11:26:10
-108 http request GET https://registry.npmjs.org/morgan
-109 info attempt registry request try #2 at 11:26:10
-110 http request GET https://registry.npmjs.org/cookie-parser
-111 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
-112 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
-113 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
-114 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
-115 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
-116 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
-117 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
-118 info attempt registry request try #3 at 11:27:10
-119 http request GET https://registry.npmjs.org/body-parser
-120 info attempt registry request try #3 at 11:27:10
-121 http request GET https://registry.npmjs.org/jade
-122 info attempt registry request try #3 at 11:27:10
-123 http request GET https://registry.npmjs.org/express
-124 info attempt registry request try #3 at 11:27:10
-125 http request GET https://registry.npmjs.org/serve-favicon
-126 info attempt registry request try #3 at 11:27:10
-127 http request GET https://registry.npmjs.org/debug
-128 info attempt registry request try #3 at 11:27:10
-129 http request GET https://registry.npmjs.org/morgan
-130 info attempt registry request try #3 at 11:27:10
-131 http request GET https://registry.npmjs.org/cookie-parser
-132 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
-132 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-132 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-132 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-132 silly fetchPackageMetaData  error for body-parser@~1.13.2 { Error: getaddrinfo ENOENT registry.npmjs.org:443
-132 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-132 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-132 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-132 silly fetchPackageMetaData   code: 'ENOENT',
-132 silly fetchPackageMetaData   errno: 'ENOENT',
-132 silly fetchPackageMetaData   syscall: 'getaddrinfo',
-132 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
-132 silly fetchPackageMetaData   host: 'registry.npmjs.org',
-132 silly fetchPackageMetaData   port: 443 }
-133 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
-133 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-133 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-133 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-133 silly fetchPackageMetaData  error for jade@~1.11.0 { Error: getaddrinfo ENOENT registry.npmjs.org:443
-133 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-133 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-133 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-133 silly fetchPackageMetaData   code: 'ENOENT',
-133 silly fetchPackageMetaData   errno: 'ENOENT',
-133 silly fetchPackageMetaData   syscall: 'getaddrinfo',
-133 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
-133 silly fetchPackageMetaData   host: 'registry.npmjs.org',
-133 silly fetchPackageMetaData   port: 443 }
-134 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
-134 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-134 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-134 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-134 silly fetchPackageMetaData  error for express@~4.13.1 { Error: getaddrinfo ENOENT registry.npmjs.org:443
-134 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-134 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-134 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-134 silly fetchPackageMetaData   code: 'ENOENT',
-134 silly fetchPackageMetaData   errno: 'ENOENT',
-134 silly fetchPackageMetaData   syscall: 'getaddrinfo',
-134 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
-134 silly fetchPackageMetaData   host: 'registry.npmjs.org',
-134 silly fetchPackageMetaData   port: 443 }
-135 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
-135 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-135 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-135 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-135 silly fetchPackageMetaData  error for serve-favicon@~2.3.0 { Error: getaddrinfo ENOENT registry.npmjs.org:443
-135 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-135 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-135 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-135 silly fetchPackageMetaData   code: 'ENOENT',
-135 silly fetchPackageMetaData   errno: 'ENOENT',
-135 silly fetchPackageMetaData   syscall: 'getaddrinfo',
-135 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
-135 silly fetchPackageMetaData   host: 'registry.npmjs.org',
-135 silly fetchPackageMetaData   port: 443 }
-136 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
-136 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-136 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-136 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-136 silly fetchPackageMetaData  error for debug@~2.2.0 { Error: getaddrinfo ENOENT registry.npmjs.org:443
-136 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-136 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-136 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-136 silly fetchPackageMetaData   code: 'ENOENT',
-136 silly fetchPackageMetaData   errno: 'ENOENT',
-136 silly fetchPackageMetaData   syscall: 'getaddrinfo',
-136 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
-136 silly fetchPackageMetaData   host: 'registry.npmjs.org',
-136 silly fetchPackageMetaData   port: 443 }
-137 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
-137 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-137 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-137 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-137 silly fetchPackageMetaData  error for morgan@~1.6.1 { Error: getaddrinfo ENOENT registry.npmjs.org:443
-137 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-137 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-137 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-137 silly fetchPackageMetaData   code: 'ENOENT',
-137 silly fetchPackageMetaData   errno: 'ENOENT',
-137 silly fetchPackageMetaData   syscall: 'getaddrinfo',
-137 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
-137 silly fetchPackageMetaData   host: 'registry.npmjs.org',
-137 silly fetchPackageMetaData   port: 443 }
-138 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
-138 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-138 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-138 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-138 silly fetchPackageMetaData  error for cookie-parser@~1.3.5 { Error: getaddrinfo ENOENT registry.npmjs.org:443
-138 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:953:11)
-138 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
-138 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-138 silly fetchPackageMetaData   code: 'ENOENT',
-138 silly fetchPackageMetaData   errno: 'ENOENT',
-138 silly fetchPackageMetaData   syscall: 'getaddrinfo',
-138 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
-138 silly fetchPackageMetaData   host: 'registry.npmjs.org',
-138 silly fetchPackageMetaData   port: 443 }
-139 silly rollbackFailedOptional Starting
-140 silly rollbackFailedOptional Finishing
-141 silly runTopLevelLifecycles Starting
-142 silly runTopLevelLifecycles Finishing
-143 silly install printInstalled
-144 verbose stack Error: getaddrinfo ENOENT registry.npmjs.org:443
-144 verbose stack     at Object.exports._errnoException (util.js:953:11)
-144 verbose stack     at errnoException (dns.js:33:15)
-144 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
-145 verbose cwd C:\Users\shado\WebstormProjects\club
-146 error Windows_NT 10.0.10586
-147 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
-148 error node v6.2.0
-149 error npm  v3.8.9
-150 error code ENOENT
-151 error errno ENOENT
-152 error syscall getaddrinfo
-153 error enoent getaddrinfo ENOENT registry.npmjs.org:443
-154 error enoent getaddrinfo ENOENT registry.npmjs.org:443
-154 error enoent This is most likely not a problem with npm itself
-154 error enoent and is related to npm not being able to find a file.
-155 verbose exit [ 1, true ]
+60 silly mapToRegistry uri https://registry.npmjs.org/koa-flash
+61 silly fetchNamedPackageData koa-frouter
+62 silly mapToRegistry name koa-frouter
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'koa-frouter',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   name: 'koa-frouter',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/koa-frouter
+67 silly fetchNamedPackageData koa-generic-session
+68 silly mapToRegistry name koa-generic-session
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'koa-generic-session',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   name: 'koa-generic-session',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/koa-generic-session
+73 silly fetchNamedPackageData koa-generic-session-mongo
+74 silly mapToRegistry name koa-generic-session-mongo
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'koa-generic-session-mongo',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   name: 'koa-generic-session-mongo',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/koa-generic-session-mongo
+79 silly fetchNamedPackageData koa-gzip
+80 silly mapToRegistry name koa-gzip
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'koa-gzip',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   name: 'koa-gzip',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/koa-gzip
+85 silly fetchNamedPackageData koa-logger
+86 silly mapToRegistry name koa-logger
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'koa-logger',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   name: 'koa-logger',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/koa-logger
+91 silly fetchNamedPackageData koa-scheme
+92 silly mapToRegistry name koa-scheme
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'koa-scheme',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   name: 'koa-scheme',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/koa-scheme
+97 silly fetchNamedPackageData koa-static-cache
+98 silly mapToRegistry name koa-static-cache
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'koa-static-cache',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   name: 'koa-static-cache',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/koa-static-cache
+103 silly fetchNamedPackageData merge-description
+104 silly mapToRegistry name merge-description
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'merge-description',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   name: 'merge-description',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/merge-description
+109 silly fetchNamedPackageData mongoose
+110 silly mapToRegistry name mongoose
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'mongoose',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   name: 'mongoose',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+115 silly fetchNamedPackageData validator
+116 silly mapToRegistry name validator
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry data Result {
+119 silly mapToRegistry   raw: 'validator',
+119 silly mapToRegistry   scope: null,
+119 silly mapToRegistry   name: 'validator',
+119 silly mapToRegistry   rawSpec: '',
+119 silly mapToRegistry   spec: 'latest',
+119 silly mapToRegistry   type: 'tag' }
+120 silly mapToRegistry uri https://registry.npmjs.org/validator
+121 silly fetchNamedPackageData koa-router-cache
+122 silly mapToRegistry name koa-router-cache
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry data Result {
+125 silly mapToRegistry   raw: 'koa-router-cache',
+125 silly mapToRegistry   scope: null,
+125 silly mapToRegistry   name: 'koa-router-cache',
+125 silly mapToRegistry   rawSpec: '',
+125 silly mapToRegistry   spec: 'latest',
+125 silly mapToRegistry   type: 'tag' }
+126 silly mapToRegistry uri https://registry.npmjs.org/koa-router-cache
+127 verbose request uri https://registry.npmjs.org/co-cache
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 15:58:10
+130 verbose request id bb028a926b8796e2
+131 http request GET https://registry.npmjs.org/co-cache
+132 verbose request uri https://registry.npmjs.org/co-ejs
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 15:58:10
+135 http request GET https://registry.npmjs.org/co-ejs
+136 verbose request uri https://registry.npmjs.org/config-lite
+137 verbose request no auth needed
+138 info attempt registry request try #1 at 15:58:10
+139 http request GET https://registry.npmjs.org/config-lite
+140 verbose request uri https://registry.npmjs.org/koa
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 15:58:10
+143 http request GET https://registry.npmjs.org/koa
+144 verbose request uri https://registry.npmjs.org/koa-bodyparser
+145 verbose request no auth needed
+146 info attempt registry request try #1 at 15:58:10
+147 http request GET https://registry.npmjs.org/koa-bodyparser
+148 verbose request uri https://registry.npmjs.org/koa-errorhandler
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 15:58:10
+151 http request GET https://registry.npmjs.org/koa-errorhandler
+152 verbose request uri https://registry.npmjs.org/koa-flash
+153 verbose request no auth needed
+154 info attempt registry request try #1 at 15:58:10
+155 http request GET https://registry.npmjs.org/koa-flash
+156 verbose request uri https://registry.npmjs.org/koa-frouter
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 15:58:10
+159 http request GET https://registry.npmjs.org/koa-frouter
+160 verbose request uri https://registry.npmjs.org/koa-generic-session
+161 verbose request no auth needed
+162 info attempt registry request try #1 at 15:58:10
+163 http request GET https://registry.npmjs.org/koa-generic-session
+164 verbose request uri https://registry.npmjs.org/koa-generic-session-mongo
+165 verbose request no auth needed
+166 info attempt registry request try #1 at 15:58:10
+167 http request GET https://registry.npmjs.org/koa-generic-session-mongo
+168 verbose request uri https://registry.npmjs.org/koa-gzip
+169 verbose request no auth needed
+170 info attempt registry request try #1 at 15:58:10
+171 http request GET https://registry.npmjs.org/koa-gzip
+172 verbose request uri https://registry.npmjs.org/koa-logger
+173 verbose request no auth needed
+174 info attempt registry request try #1 at 15:58:10
+175 http request GET https://registry.npmjs.org/koa-logger
+176 verbose request uri https://registry.npmjs.org/koa-scheme
+177 verbose request no auth needed
+178 info attempt registry request try #1 at 15:58:10
+179 http request GET https://registry.npmjs.org/koa-scheme
+180 verbose request uri https://registry.npmjs.org/koa-static-cache
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 15:58:10
+183 http request GET https://registry.npmjs.org/koa-static-cache
+184 verbose request uri https://registry.npmjs.org/merge-description
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 15:58:10
+187 http request GET https://registry.npmjs.org/merge-description
+188 verbose request uri https://registry.npmjs.org/mongoose
+189 verbose request no auth needed
+190 info attempt registry request try #1 at 15:58:10
+191 http request GET https://registry.npmjs.org/mongoose
+192 verbose request uri https://registry.npmjs.org/validator
+193 verbose request no auth needed
+194 info attempt registry request try #1 at 15:58:10
+195 http request GET https://registry.npmjs.org/validator
+196 verbose request uri https://registry.npmjs.org/koa-router-cache
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 15:58:10
+199 http request GET https://registry.npmjs.org/koa-router-cache
+200 http 200 https://registry.npmjs.org/koa-logger
+201 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+201 verbose headers   etag: '"CSJ2QKBGWNEU2K7Q3JAG8CITP"',
+201 verbose headers   'content-type': 'application/json',
+201 verbose headers   'content-encoding': 'gzip',
+201 verbose headers   'cache-control': 'max-age=300',
+201 verbose headers   'content-length': '2651',
+201 verbose headers   'accept-ranges': 'bytes',
+201 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+201 verbose headers   via: '1.1 varnish',
+201 verbose headers   age: '47',
+201 verbose headers   connection: 'keep-alive',
+201 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+201 verbose headers   'x-cache': 'HIT',
+201 verbose headers   'x-cache-hits': '2',
+201 verbose headers   'x-timer': 'S1463817490.160653,VS0,VE0',
+201 verbose headers   vary: 'Accept-Encoding' }
+202 silly get cb [ 200,
+202 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+202 silly get     etag: '"CSJ2QKBGWNEU2K7Q3JAG8CITP"',
+202 silly get     'content-type': 'application/json',
+202 silly get     'content-encoding': 'gzip',
+202 silly get     'cache-control': 'max-age=300',
+202 silly get     'content-length': '2651',
+202 silly get     'accept-ranges': 'bytes',
+202 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+202 silly get     via: '1.1 varnish',
+202 silly get     age: '47',
+202 silly get     connection: 'keep-alive',
+202 silly get     'x-served-by': 'cache-sin6924-SIN',
+202 silly get     'x-cache': 'HIT',
+202 silly get     'x-cache-hits': '2',
+202 silly get     'x-timer': 'S1463817490.160653,VS0,VE0',
+202 silly get     vary: 'Accept-Encoding' } ]
+203 verbose get saving koa-logger to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\koa-logger\.cache.json
+204 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+205 http 200 https://registry.npmjs.org/koa-generic-session
+206 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+206 verbose headers   etag: '"LJQ2932W975OA1XBFUXFBFQE"',
+206 verbose headers   'content-type': 'application/json',
+206 verbose headers   'content-encoding': 'gzip',
+206 verbose headers   'cache-control': 'max-age=300',
+206 verbose headers   'content-length': '6843',
+206 verbose headers   'accept-ranges': 'bytes',
+206 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+206 verbose headers   via: '1.1 varnish',
+206 verbose headers   age: '250',
+206 verbose headers   connection: 'keep-alive',
+206 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+206 verbose headers   'x-cache': 'HIT',
+206 verbose headers   'x-cache-hits': '1',
+206 verbose headers   'x-timer': 'S1463817490.176736,VS0,VE0',
+206 verbose headers   vary: 'Accept-Encoding' }
+207 silly get cb [ 200,
+207 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+207 silly get     etag: '"LJQ2932W975OA1XBFUXFBFQE"',
+207 silly get     'content-type': 'application/json',
+207 silly get     'content-encoding': 'gzip',
+207 silly get     'cache-control': 'max-age=300',
+207 silly get     'content-length': '6843',
+207 silly get     'accept-ranges': 'bytes',
+207 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+207 silly get     via: '1.1 varnish',
+207 silly get     age: '250',
+207 silly get     connection: 'keep-alive',
+207 silly get     'x-served-by': 'cache-sin6924-SIN',
+207 silly get     'x-cache': 'HIT',
+207 silly get     'x-cache-hits': '1',
+207 silly get     'x-timer': 'S1463817490.176736,VS0,VE0',
+207 silly get     vary: 'Accept-Encoding' } ]
+208 verbose get saving koa-generic-session to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\koa-generic-session\.cache.json
+209 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+210 http 200 https://registry.npmjs.org/koa-static-cache
+211 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+211 verbose headers   etag: '"F08TI5T6AQOE0UU07ZEP5YTKU"',
+211 verbose headers   'content-type': 'application/json',
+211 verbose headers   'content-encoding': 'gzip',
+211 verbose headers   'cache-control': 'max-age=300',
+211 verbose headers   'content-length': '7780',
+211 verbose headers   'accept-ranges': 'bytes',
+211 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+211 verbose headers   via: '1.1 varnish',
+211 verbose headers   age: '47',
+211 verbose headers   connection: 'keep-alive',
+211 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+211 verbose headers   'x-cache': 'HIT',
+211 verbose headers   'x-cache-hits': '1',
+211 verbose headers   'x-timer': 'S1463817490.182115,VS0,VE0',
+211 verbose headers   vary: 'Accept-Encoding' }
+212 silly get cb [ 200,
+212 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+212 silly get     etag: '"F08TI5T6AQOE0UU07ZEP5YTKU"',
+212 silly get     'content-type': 'application/json',
+212 silly get     'content-encoding': 'gzip',
+212 silly get     'cache-control': 'max-age=300',
+212 silly get     'content-length': '7780',
+212 silly get     'accept-ranges': 'bytes',
+212 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+212 silly get     via: '1.1 varnish',
+212 silly get     age: '47',
+212 silly get     connection: 'keep-alive',
+212 silly get     'x-served-by': 'cache-sin6923-SIN',
+212 silly get     'x-cache': 'HIT',
+212 silly get     'x-cache-hits': '1',
+212 silly get     'x-timer': 'S1463817490.182115,VS0,VE0',
+212 silly get     vary: 'Accept-Encoding' } ]
+213 verbose get saving koa-static-cache to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\koa-static-cache\.cache.json
+214 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+215 silly resolveWithNewModule koa-generic-session@1.10.0 checking installable status
+216 silly cache add args [ 'koa-generic-session@1.10.0', null ]
+217 verbose cache add spec koa-generic-session@1.10.0
+218 silly cache add parsed spec Result {
+218 silly cache add   raw: 'koa-generic-session@1.10.0',
+218 silly cache add   scope: null,
+218 silly cache add   name: 'koa-generic-session',
+218 silly cache add   rawSpec: '1.10.0',
+218 silly cache add   spec: '1.10.0',
+218 silly cache add   type: 'version' }
+219 silly addNamed koa-generic-session@1.10.0
+220 verbose addNamed "1.10.0" is a plain semver version for koa-generic-session
+221 silly mapToRegistry name koa-generic-session
+222 silly mapToRegistry using default registry
+223 silly mapToRegistry registry https://registry.npmjs.org/
+224 silly mapToRegistry data Result {
+224 silly mapToRegistry   raw: 'koa-generic-session',
+224 silly mapToRegistry   scope: null,
+224 silly mapToRegistry   name: 'koa-generic-session',
+224 silly mapToRegistry   rawSpec: '',
+224 silly mapToRegistry   spec: 'latest',
+224 silly mapToRegistry   type: 'tag' }
+225 silly mapToRegistry uri https://registry.npmjs.org/koa-generic-session
+226 verbose addNameVersion registry:https://registry.npmjs.org/koa-generic-session not in flight; fetching
+227 silly resolveWithNewModule koa-logger@1.3.0 checking installable status
+228 silly cache add args [ 'koa-logger@1.3.0', null ]
+229 verbose cache add spec koa-logger@1.3.0
+230 silly cache add parsed spec Result {
+230 silly cache add   raw: 'koa-logger@1.3.0',
+230 silly cache add   scope: null,
+230 silly cache add   name: 'koa-logger',
+230 silly cache add   rawSpec: '1.3.0',
+230 silly cache add   spec: '1.3.0',
+230 silly cache add   type: 'version' }
+231 silly addNamed koa-logger@1.3.0
+232 verbose addNamed "1.3.0" is a plain semver version for koa-logger
+233 silly mapToRegistry name koa-logger
+234 silly mapToRegistry using default registry
+235 silly mapToRegistry registry https://registry.npmjs.org/
+236 silly mapToRegistry data Result {
+236 silly mapToRegistry   raw: 'koa-logger',
+236 silly mapToRegistry   scope: null,
+236 silly mapToRegistry   name: 'koa-logger',
+236 silly mapToRegistry   rawSpec: '',
+236 silly mapToRegistry   spec: 'latest',
+236 silly mapToRegistry   type: 'tag' }
+237 silly mapToRegistry uri https://registry.npmjs.org/koa-logger
+238 verbose addNameVersion registry:https://registry.npmjs.org/koa-logger not in flight; fetching
+239 silly fetchPackageMetaData Error: No compatible version found: koa-static-cache@0.3.0
+239 silly fetchPackageMetaData Valid install targets:
+239 silly fetchPackageMetaData 3.1.7, 3.1.6, 3.1.5, 3.1.4, 3.1.3, 3.1.2, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 2.0.2, 2.0.1, 2.0.0, 1.2.0, 1.1.0, 1.0.10, 1.0.9, 1.0.8, 1.0.7, 1.0.6, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 0.1.1, 0.1.0, 0.0.1
+239 silly fetchPackageMetaData
+239 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:157:16)
+239 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+239 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:19:8
+239 silly fetchPackageMetaData     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:168:7)
+239 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
+239 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:117:15)
+239 silly fetchPackageMetaData  error for koa-static-cache@0.3.0 Error: No compatible version found: koa-static-cache@0.3.0
+239 silly fetchPackageMetaData Valid install targets:
+239 silly fetchPackageMetaData 3.1.7, 3.1.6, 3.1.5, 3.1.4, 3.1.3, 3.1.2, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 2.0.2, 2.0.1, 2.0.0, 1.2.0, 1.1.0, 1.0.10, 1.0.9, 1.0.8, 1.0.7, 1.0.6, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 0.1.1, 0.1.0, 0.0.1
+239 silly fetchPackageMetaData
+239 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:157:16)
+239 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+239 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:19:8
+239 silly fetchPackageMetaData     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:168:7)
+239 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
+239 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:117:15)
+240 verbose get https://registry.npmjs.org/koa-generic-session not expired, no request
+241 verbose get https://registry.npmjs.org/koa-logger not expired, no request
+242 silly mapToRegistry name koa-generic-session
+243 silly mapToRegistry using default registry
+244 silly mapToRegistry registry https://registry.npmjs.org/
+245 silly mapToRegistry data Result {
+245 silly mapToRegistry   raw: 'koa-generic-session',
+245 silly mapToRegistry   scope: null,
+245 silly mapToRegistry   name: 'koa-generic-session',
+245 silly mapToRegistry   rawSpec: '',
+245 silly mapToRegistry   spec: 'latest',
+245 silly mapToRegistry   type: 'tag' }
+246 silly mapToRegistry uri https://registry.npmjs.org/koa-generic-session
+247 verbose addRemoteTarball https://registry.npmjs.org/koa-generic-session/-/koa-generic-session-1.10.0.tgz not in flight; adding
+248 verbose addRemoteTarball [ 'https://registry.npmjs.org/koa-generic-session/-/koa-generic-session-1.10.0.tgz',
+248 verbose addRemoteTarball   '5449fa5ef0e5ad3bd9e8f6ceebf3ccdc0760fe31' ]
+249 silly mapToRegistry name koa-logger
+250 silly mapToRegistry using default registry
+251 silly mapToRegistry registry https://registry.npmjs.org/
+252 silly mapToRegistry data Result {
+252 silly mapToRegistry   raw: 'koa-logger',
+252 silly mapToRegistry   scope: null,
+252 silly mapToRegistry   name: 'koa-logger',
+252 silly mapToRegistry   rawSpec: '',
+252 silly mapToRegistry   spec: 'latest',
+252 silly mapToRegistry   type: 'tag' }
+253 silly mapToRegistry uri https://registry.npmjs.org/koa-logger
+254 verbose addRemoteTarball https://registry.npmjs.org/koa-logger/-/koa-logger-1.3.0.tgz not in flight; adding
+255 verbose addRemoteTarball [ 'https://registry.npmjs.org/koa-logger/-/koa-logger-1.3.0.tgz',
+255 verbose addRemoteTarball   '242b93a3478e7321733ce61fdda9f9ef4947c844' ]
+256 http 200 https://registry.npmjs.org/koa
+257 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+257 verbose headers   etag: '"5VKL9QJ7B80ACH1VY72GP53TW"',
+257 verbose headers   'content-type': 'application/json',
+257 verbose headers   'content-encoding': 'gzip',
+257 verbose headers   'cache-control': 'max-age=300',
+257 verbose headers   'content-length': '17335',
+257 verbose headers   'accept-ranges': 'bytes',
+257 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+257 verbose headers   via: '1.1 varnish',
+257 verbose headers   age: '250',
+257 verbose headers   connection: 'keep-alive',
+257 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+257 verbose headers   'x-cache': 'HIT',
+257 verbose headers   'x-cache-hits': '1',
+257 verbose headers   'x-timer': 'S1463817490.171903,VS0,VE0',
+257 verbose headers   vary: 'Accept-Encoding' }
+258 silly get cb [ 200,
+258 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+258 silly get     etag: '"5VKL9QJ7B80ACH1VY72GP53TW"',
+258 silly get     'content-type': 'application/json',
+258 silly get     'content-encoding': 'gzip',
+258 silly get     'cache-control': 'max-age=300',
+258 silly get     'content-length': '17335',
+258 silly get     'accept-ranges': 'bytes',
+258 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+258 silly get     via: '1.1 varnish',
+258 silly get     age: '250',
+258 silly get     connection: 'keep-alive',
+258 silly get     'x-served-by': 'cache-sin6923-SIN',
+258 silly get     'x-cache': 'HIT',
+258 silly get     'x-cache-hits': '1',
+258 silly get     'x-timer': 'S1463817490.171903,VS0,VE0',
+258 silly get     vary: 'Accept-Encoding' } ]
+259 verbose get saving koa to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\koa\.cache.json
+260 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+261 http 200 https://registry.npmjs.org/validator
+262 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+262 verbose headers   etag: '"E6VVOGZZ5M4CTBPPKDUJJ3VYD"',
+262 verbose headers   'content-type': 'application/json',
+262 verbose headers   'content-encoding': 'gzip',
+262 verbose headers   'cache-control': 'max-age=300',
+262 verbose headers   'content-length': '25310',
+262 verbose headers   'accept-ranges': 'bytes',
+262 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+262 verbose headers   via: '1.1 varnish',
+262 verbose headers   age: '186',
+262 verbose headers   connection: 'keep-alive',
+262 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+262 verbose headers   'x-cache': 'HIT',
+262 verbose headers   'x-cache-hits': '2',
+262 verbose headers   'x-timer': 'S1463817490.160712,VS0,VE0',
+262 verbose headers   vary: 'Accept-Encoding' }
+263 silly get cb [ 200,
+263 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+263 silly get     etag: '"E6VVOGZZ5M4CTBPPKDUJJ3VYD"',
+263 silly get     'content-type': 'application/json',
+263 silly get     'content-encoding': 'gzip',
+263 silly get     'cache-control': 'max-age=300',
+263 silly get     'content-length': '25310',
+263 silly get     'accept-ranges': 'bytes',
+263 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+263 silly get     via: '1.1 varnish',
+263 silly get     age: '186',
+263 silly get     connection: 'keep-alive',
+263 silly get     'x-served-by': 'cache-sin6924-SIN',
+263 silly get     'x-cache': 'HIT',
+263 silly get     'x-cache-hits': '2',
+263 silly get     'x-timer': 'S1463817490.160712,VS0,VE0',
+263 silly get     vary: 'Accept-Encoding' } ]
+264 verbose get saving validator to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\validator\.cache.json
+265 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+266 info retry fetch attempt 1 at 15:58:10
+267 info attempt registry request try #1 at 15:58:10
+268 http fetch GET https://registry.npmjs.org/koa-generic-session/-/koa-generic-session-1.10.0.tgz
+269 info retry fetch attempt 1 at 15:58:10
+270 info attempt registry request try #1 at 15:58:10
+271 http fetch GET https://registry.npmjs.org/koa-logger/-/koa-logger-1.3.0.tgz
+272 silly resolveWithNewModule koa@1.1.2 checking installable status
+273 silly cache add args [ 'koa@1.1.2', null ]
+274 verbose cache add spec koa@1.1.2
+275 silly cache add parsed spec Result {
+275 silly cache add   raw: 'koa@1.1.2',
+275 silly cache add   scope: null,
+275 silly cache add   name: 'koa',
+275 silly cache add   rawSpec: '1.1.2',
+275 silly cache add   spec: '1.1.2',
+275 silly cache add   type: 'version' }
+276 silly addNamed koa@1.1.2
+277 verbose addNamed "1.1.2" is a plain semver version for koa
+278 silly mapToRegistry name koa
+279 silly mapToRegistry using default registry
+280 silly mapToRegistry registry https://registry.npmjs.org/
+281 silly mapToRegistry data Result {
+281 silly mapToRegistry   raw: 'koa',
+281 silly mapToRegistry   scope: null,
+281 silly mapToRegistry   name: 'koa',
+281 silly mapToRegistry   rawSpec: '',
+281 silly mapToRegistry   spec: 'latest',
+281 silly mapToRegistry   type: 'tag' }
+282 silly mapToRegistry uri https://registry.npmjs.org/koa
+283 verbose addNameVersion registry:https://registry.npmjs.org/koa not in flight; fetching
+284 silly resolveWithNewModule validator@4.4.0 checking installable status
+285 silly cache add args [ 'validator@4.4.0', null ]
+286 verbose cache add spec validator@4.4.0
+287 silly cache add parsed spec Result {
+287 silly cache add   raw: 'validator@4.4.0',
+287 silly cache add   scope: null,
+287 silly cache add   name: 'validator',
+287 silly cache add   rawSpec: '4.4.0',
+287 silly cache add   spec: '4.4.0',
+287 silly cache add   type: 'version' }
+288 silly addNamed validator@4.4.0
+289 verbose addNamed "4.4.0" is a plain semver version for validator
+290 silly mapToRegistry name validator
+291 silly mapToRegistry using default registry
+292 silly mapToRegistry registry https://registry.npmjs.org/
+293 silly mapToRegistry data Result {
+293 silly mapToRegistry   raw: 'validator',
+293 silly mapToRegistry   scope: null,
+293 silly mapToRegistry   name: 'validator',
+293 silly mapToRegistry   rawSpec: '',
+293 silly mapToRegistry   spec: 'latest',
+293 silly mapToRegistry   type: 'tag' }
+294 silly mapToRegistry uri https://registry.npmjs.org/validator
+295 verbose addNameVersion registry:https://registry.npmjs.org/validator not in flight; fetching
+296 verbose get https://registry.npmjs.org/koa not expired, no request
+297 silly mapToRegistry name koa
+298 silly mapToRegistry using default registry
+299 silly mapToRegistry registry https://registry.npmjs.org/
+300 silly mapToRegistry data Result {
+300 silly mapToRegistry   raw: 'koa',
+300 silly mapToRegistry   scope: null,
+300 silly mapToRegistry   name: 'koa',
+300 silly mapToRegistry   rawSpec: '',
+300 silly mapToRegistry   spec: 'latest',
+300 silly mapToRegistry   type: 'tag' }
+301 silly mapToRegistry uri https://registry.npmjs.org/koa
+302 verbose addRemoteTarball https://registry.npmjs.org/koa/-/koa-1.1.2.tgz not in flight; adding
+303 verbose addRemoteTarball [ 'https://registry.npmjs.org/koa/-/koa-1.1.2.tgz',
+303 verbose addRemoteTarball   '926268f9affd1acf87f6be2d4b6ad46f8576c39f' ]
+304 verbose get https://registry.npmjs.org/validator not expired, no request
+305 silly mapToRegistry name validator
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry https://registry.npmjs.org/
+308 silly mapToRegistry data Result {
+308 silly mapToRegistry   raw: 'validator',
+308 silly mapToRegistry   scope: null,
+308 silly mapToRegistry   name: 'validator',
+308 silly mapToRegistry   rawSpec: '',
+308 silly mapToRegistry   spec: 'latest',
+308 silly mapToRegistry   type: 'tag' }
+309 silly mapToRegistry uri https://registry.npmjs.org/validator
+310 verbose addRemoteTarball https://registry.npmjs.org/validator/-/validator-4.4.0.tgz not in flight; adding
+311 verbose addRemoteTarball [ 'https://registry.npmjs.org/validator/-/validator-4.4.0.tgz',
+311 verbose addRemoteTarball   '35e29555dd5f7826f970a4eaecff9e6df6df3da6' ]
+312 info retry fetch attempt 1 at 15:58:10
+313 info attempt registry request try #1 at 15:58:10
+314 http fetch GET https://registry.npmjs.org/koa/-/koa-1.1.2.tgz
+315 info retry fetch attempt 1 at 15:58:10
+316 info attempt registry request try #1 at 15:58:10
+317 http fetch GET https://registry.npmjs.org/validator/-/validator-4.4.0.tgz
+318 http 200 https://registry.npmjs.org/mongoose
+319 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+319 verbose headers   etag: '"2QZ3BVHOYJYTJVA6DLZC44BPU"',
+319 verbose headers   'content-type': 'application/json',
+319 verbose headers   'content-encoding': 'gzip',
+319 verbose headers   'cache-control': 'max-age=300',
+319 verbose headers   'content-length': '49438',
+319 verbose headers   'accept-ranges': 'bytes',
+319 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+319 verbose headers   via: '1.1 varnish',
+319 verbose headers   age: '240',
+319 verbose headers   connection: 'keep-alive',
+319 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+319 verbose headers   'x-cache': 'HIT',
+319 verbose headers   'x-cache-hits': '2',
+319 verbose headers   'x-timer': 'S1463817490.181360,VS0,VE0',
+319 verbose headers   vary: 'Accept-Encoding' }
+320 silly get cb [ 200,
+320 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+320 silly get     etag: '"2QZ3BVHOYJYTJVA6DLZC44BPU"',
+320 silly get     'content-type': 'application/json',
+320 silly get     'content-encoding': 'gzip',
+320 silly get     'cache-control': 'max-age=300',
+320 silly get     'content-length': '49438',
+320 silly get     'accept-ranges': 'bytes',
+320 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+320 silly get     via: '1.1 varnish',
+320 silly get     age: '240',
+320 silly get     connection: 'keep-alive',
+320 silly get     'x-served-by': 'cache-sin6921-SIN',
+320 silly get     'x-cache': 'HIT',
+320 silly get     'x-cache-hits': '2',
+320 silly get     'x-timer': 'S1463817490.181360,VS0,VE0',
+320 silly get     vary: 'Accept-Encoding' } ]
+321 verbose get saving mongoose to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\mongoose\.cache.json
+322 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+323 http fetch 200 https://registry.npmjs.org/koa-logger/-/koa-logger-1.3.0.tgz
+324 silly resolveWithNewModule mongoose@4.2.9 checking installable status
+325 silly cache add args [ 'mongoose@4.2.9', null ]
+326 verbose cache add spec mongoose@4.2.9
+327 silly cache add parsed spec Result {
+327 silly cache add   raw: 'mongoose@4.2.9',
+327 silly cache add   scope: null,
+327 silly cache add   name: 'mongoose',
+327 silly cache add   rawSpec: '4.2.9',
+327 silly cache add   spec: '4.2.9',
+327 silly cache add   type: 'version' }
+328 silly addNamed mongoose@4.2.9
+329 verbose addNamed "4.2.9" is a plain semver version for mongoose
+330 silly mapToRegistry name mongoose
+331 silly mapToRegistry using default registry
+332 silly mapToRegistry registry https://registry.npmjs.org/
+333 silly mapToRegistry data Result {
+333 silly mapToRegistry   raw: 'mongoose',
+333 silly mapToRegistry   scope: null,
+333 silly mapToRegistry   name: 'mongoose',
+333 silly mapToRegistry   rawSpec: '',
+333 silly mapToRegistry   spec: 'latest',
+333 silly mapToRegistry   type: 'tag' }
+334 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+335 verbose addNameVersion registry:https://registry.npmjs.org/mongoose not in flight; fetching
+336 verbose get https://registry.npmjs.org/mongoose not expired, no request
+337 silly fetchAndShaCheck shasum 242b93a3478e7321733ce61fdda9f9ef4947c844
+338 http fetch 200 https://registry.npmjs.org/validator/-/validator-4.4.0.tgz
+339 silly mapToRegistry name mongoose
+340 silly mapToRegistry using default registry
+341 silly mapToRegistry registry https://registry.npmjs.org/
+342 silly mapToRegistry data Result {
+342 silly mapToRegistry   raw: 'mongoose',
+342 silly mapToRegistry   scope: null,
+342 silly mapToRegistry   name: 'mongoose',
+342 silly mapToRegistry   rawSpec: '',
+342 silly mapToRegistry   spec: 'latest',
+342 silly mapToRegistry   type: 'tag' }
+343 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+344 verbose addRemoteTarball https://registry.npmjs.org/mongoose/-/mongoose-4.2.9.tgz not in flight; adding
+345 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose/-/mongoose-4.2.9.tgz',
+345 verbose addRemoteTarball   '7801aff3ae7a8762f74aa544940b562fd836527a' ]
+346 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\koa-logger\-\koa-logger-1.3.0.tgz not in flight; adding
+347 verbose addTmpTarball already have metadata; skipping unpack for koa-logger@1.3.0
+348 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+349 info retry fetch attempt 1 at 15:58:10
+350 info attempt registry request try #1 at 15:58:10
+351 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-4.2.9.tgz
+352 http 200 https://registry.npmjs.org/koa-bodyparser
+353 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+353 verbose headers   etag: '"9I7H8XQMLR1D1OE682N99CSWX"',
+353 verbose headers   'content-type': 'application/json',
+353 verbose headers   'content-encoding': 'gzip',
+353 verbose headers   'cache-control': 'max-age=300',
+353 verbose headers   'content-length': '4889',
+353 verbose headers   'accept-ranges': 'bytes',
+353 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+353 verbose headers   via: '1.1 varnish',
+353 verbose headers   age: '0',
+353 verbose headers   connection: 'keep-alive',
+353 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+353 verbose headers   'x-cache': 'HIT',
+353 verbose headers   'x-cache-hits': '1',
+353 verbose headers   'x-timer': 'S1463817490.175558,VS0,VE213',
+353 verbose headers   vary: 'Accept-Encoding' }
+354 silly get cb [ 200,
+354 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+354 silly get     etag: '"9I7H8XQMLR1D1OE682N99CSWX"',
+354 silly get     'content-type': 'application/json',
+354 silly get     'content-encoding': 'gzip',
+354 silly get     'cache-control': 'max-age=300',
+354 silly get     'content-length': '4889',
+354 silly get     'accept-ranges': 'bytes',
+354 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+354 silly get     via: '1.1 varnish',
+354 silly get     age: '0',
+354 silly get     connection: 'keep-alive',
+354 silly get     'x-served-by': 'cache-sin6921-SIN',
+354 silly get     'x-cache': 'HIT',
+354 silly get     'x-cache-hits': '1',
+354 silly get     'x-timer': 'S1463817490.175558,VS0,VE213',
+354 silly get     vary: 'Accept-Encoding' } ]
+355 verbose get saving koa-bodyparser to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\koa-bodyparser\.cache.json
+356 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+357 silly resolveWithNewModule koa-bodyparser@2.0.1 checking installable status
+358 silly cache add args [ 'koa-bodyparser@2.0.1', null ]
+359 verbose cache add spec koa-bodyparser@2.0.1
+360 silly cache add parsed spec Result {
+360 silly cache add   raw: 'koa-bodyparser@2.0.1',
+360 silly cache add   scope: null,
+360 silly cache add   name: 'koa-bodyparser',
+360 silly cache add   rawSpec: '2.0.1',
+360 silly cache add   spec: '2.0.1',
+360 silly cache add   type: 'version' }
+361 silly addNamed koa-bodyparser@2.0.1
+362 verbose addNamed "2.0.1" is a plain semver version for koa-bodyparser
+363 silly mapToRegistry name koa-bodyparser
+364 silly mapToRegistry using default registry
+365 silly mapToRegistry registry https://registry.npmjs.org/
+366 silly mapToRegistry data Result {
+366 silly mapToRegistry   raw: 'koa-bodyparser',
+366 silly mapToRegistry   scope: null,
+366 silly mapToRegistry   name: 'koa-bodyparser',
+366 silly mapToRegistry   rawSpec: '',
+366 silly mapToRegistry   spec: 'latest',
+366 silly mapToRegistry   type: 'tag' }
+367 silly mapToRegistry uri https://registry.npmjs.org/koa-bodyparser
+368 verbose addNameVersion registry:https://registry.npmjs.org/koa-bodyparser not in flight; fetching
+369 http 200 https://registry.npmjs.org/koa-errorhandler
+370 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+370 verbose headers   etag: '"79F6Y3XX6GTER6GM6AJ26CJVI"',
+370 verbose headers   'content-type': 'application/json',
+370 verbose headers   'content-encoding': 'gzip',
+370 verbose headers   'cache-control': 'max-age=300',
+370 verbose headers   'content-length': '1219',
+370 verbose headers   'accept-ranges': 'bytes',
+370 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+370 verbose headers   via: '1.1 varnish',
+370 verbose headers   age: '0',
+370 verbose headers   connection: 'keep-alive',
+370 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+370 verbose headers   'x-cache': 'MISS',
+370 verbose headers   'x-cache-hits': '0',
+370 verbose headers   'x-timer': 'S1463817490.188472,VS0,VE216',
+370 verbose headers   vary: 'Accept-Encoding' }
+371 silly get cb [ 200,
+371 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+371 silly get     etag: '"79F6Y3XX6GTER6GM6AJ26CJVI"',
+371 silly get     'content-type': 'application/json',
+371 silly get     'content-encoding': 'gzip',
+371 silly get     'cache-control': 'max-age=300',
+371 silly get     'content-length': '1219',
+371 silly get     'accept-ranges': 'bytes',
+371 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+371 silly get     via: '1.1 varnish',
+371 silly get     age: '0',
+371 silly get     connection: 'keep-alive',
+371 silly get     'x-served-by': 'cache-sin6927-SIN',
+371 silly get     'x-cache': 'MISS',
+371 silly get     'x-cache-hits': '0',
+371 silly get     'x-timer': 'S1463817490.188472,VS0,VE216',
+371 silly get     vary: 'Accept-Encoding' } ]
+372 verbose get saving koa-errorhandler to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\koa-errorhandler\.cache.json
+373 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+374 verbose get https://registry.npmjs.org/koa-bodyparser not expired, no request
+375 silly cache afterAdd koa-logger@1.3.0
+376 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-logger\1.3.0\package\package.json not in flight; writing
+377 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+378 silly mapToRegistry name koa-bodyparser
+379 silly mapToRegistry using default registry
+380 silly mapToRegistry registry https://registry.npmjs.org/
+381 silly mapToRegistry data Result {
+381 silly mapToRegistry   raw: 'koa-bodyparser',
+381 silly mapToRegistry   scope: null,
+381 silly mapToRegistry   name: 'koa-bodyparser',
+381 silly mapToRegistry   rawSpec: '',
+381 silly mapToRegistry   spec: 'latest',
+381 silly mapToRegistry   type: 'tag' }
+382 silly mapToRegistry uri https://registry.npmjs.org/koa-bodyparser
+383 verbose addRemoteTarball https://registry.npmjs.org/koa-bodyparser/-/koa-bodyparser-2.0.1.tgz not in flight; adding
+384 verbose addRemoteTarball [ 'https://registry.npmjs.org/koa-bodyparser/-/koa-bodyparser-2.0.1.tgz',
+384 verbose addRemoteTarball   'f9ba408eb946e257cfce17daf8c765c58755de72' ]
+385 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-logger\1.3.0\package\package.json written
+386 info retry fetch attempt 1 at 15:58:10
+387 info attempt registry request try #1 at 15:58:10
+388 http fetch GET https://registry.npmjs.org/koa-bodyparser/-/koa-bodyparser-2.0.1.tgz
+389 http 200 https://registry.npmjs.org/koa-frouter
+390 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+390 verbose headers   etag: '"59KKYQDJABASSQEX9OE06LQRV"',
+390 verbose headers   'content-type': 'application/json',
+390 verbose headers   'content-encoding': 'gzip',
+390 verbose headers   'cache-control': 'max-age=300',
+390 verbose headers   'content-length': '2192',
+390 verbose headers   'accept-ranges': 'bytes',
+390 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+390 verbose headers   via: '1.1 varnish',
+390 verbose headers   age: '0',
+390 verbose headers   connection: 'keep-alive',
+390 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+390 verbose headers   'x-cache': 'MISS',
+390 verbose headers   'x-cache-hits': '0',
+390 verbose headers   'x-timer': 'S1463817490.165719,VS0,VE253',
+390 verbose headers   vary: 'Accept-Encoding' }
+391 silly get cb [ 200,
+391 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+391 silly get     etag: '"59KKYQDJABASSQEX9OE06LQRV"',
+391 silly get     'content-type': 'application/json',
+391 silly get     'content-encoding': 'gzip',
+391 silly get     'cache-control': 'max-age=300',
+391 silly get     'content-length': '2192',
+391 silly get     'accept-ranges': 'bytes',
+391 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+391 silly get     via: '1.1 varnish',
+391 silly get     age: '0',
+391 silly get     connection: 'keep-alive',
+391 silly get     'x-served-by': 'cache-sin6924-SIN',
+391 silly get     'x-cache': 'MISS',
+391 silly get     'x-cache-hits': '0',
+391 silly get     'x-timer': 'S1463817490.165719,VS0,VE253',
+391 silly get     vary: 'Accept-Encoding' } ]
+392 verbose get saving koa-frouter to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\koa-frouter\.cache.json
+393 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+394 http 200 https://registry.npmjs.org/co-cache
+395 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+395 verbose headers   etag: '"8XN5T7RIZQ1VOYGW6BMTXTYD6"',
+395 verbose headers   'content-type': 'application/json',
+395 verbose headers   'content-encoding': 'gzip',
+395 verbose headers   'cache-control': 'max-age=300',
+395 verbose headers   'content-length': '3215',
+395 verbose headers   'accept-ranges': 'bytes',
+395 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+395 verbose headers   via: '1.1 varnish',
+395 verbose headers   age: '0',
+395 verbose headers   connection: 'keep-alive',
+395 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+395 verbose headers   'x-cache': 'MISS',
+395 verbose headers   'x-cache-hits': '0',
+395 verbose headers   'x-timer': 'S1463817490.161219,VS0,VE261',
+395 verbose headers   vary: 'Accept-Encoding' }
+396 silly get cb [ 200,
+396 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+396 silly get     etag: '"8XN5T7RIZQ1VOYGW6BMTXTYD6"',
+396 silly get     'content-type': 'application/json',
+396 silly get     'content-encoding': 'gzip',
+396 silly get     'cache-control': 'max-age=300',
+396 silly get     'content-length': '3215',
+396 silly get     'accept-ranges': 'bytes',
+396 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+396 silly get     via: '1.1 varnish',
+396 silly get     age: '0',
+396 silly get     connection: 'keep-alive',
+396 silly get     'x-served-by': 'cache-sin6920-SIN',
+396 silly get     'x-cache': 'MISS',
+396 silly get     'x-cache-hits': '0',
+396 silly get     'x-timer': 'S1463817490.161219,VS0,VE261',
+396 silly get     vary: 'Accept-Encoding' } ]
+397 verbose get saving co-cache to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\co-cache\.cache.json
+398 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+399 http 200 https://registry.npmjs.org/koa-gzip
+400 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+400 verbose headers   etag: '"8FA1UJBGBFE2PMK7GEIFS2Y2U"',
+400 verbose headers   'content-type': 'application/json',
+400 verbose headers   'content-encoding': 'gzip',
+400 verbose headers   'cache-control': 'max-age=300',
+400 verbose headers   'content-length': '2624',
+400 verbose headers   'accept-ranges': 'bytes',
+400 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+400 verbose headers   via: '1.1 varnish',
+400 verbose headers   age: '0',
+400 verbose headers   connection: 'keep-alive',
+400 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+400 verbose headers   'x-cache': 'MISS',
+400 verbose headers   'x-cache-hits': '0',
+400 verbose headers   'x-timer': 'S1463817490.163372,VS0,VE259',
+400 verbose headers   vary: 'Accept-Encoding' }
+401 silly get cb [ 200,
+401 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+401 silly get     etag: '"8FA1UJBGBFE2PMK7GEIFS2Y2U"',
+401 silly get     'content-type': 'application/json',
+401 silly get     'content-encoding': 'gzip',
+401 silly get     'cache-control': 'max-age=300',
+401 silly get     'content-length': '2624',
+401 silly get     'accept-ranges': 'bytes',
+401 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+401 silly get     via: '1.1 varnish',
+401 silly get     age: '0',
+401 silly get     connection: 'keep-alive',
+401 silly get     'x-served-by': 'cache-sin6920-SIN',
+401 silly get     'x-cache': 'MISS',
+401 silly get     'x-cache-hits': '0',
+401 silly get     'x-timer': 'S1463817490.163372,VS0,VE259',
+401 silly get     vary: 'Accept-Encoding' } ]
+402 verbose get saving koa-gzip to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\koa-gzip\.cache.json
+403 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+404 silly resolveWithNewModule koa-errorhandler@0.1.1 checking installable status
+405 silly cache add args [ 'koa-errorhandler@0.1.1', null ]
+406 verbose cache add spec koa-errorhandler@0.1.1
+407 silly cache add parsed spec Result {
+407 silly cache add   raw: 'koa-errorhandler@0.1.1',
+407 silly cache add   scope: null,
+407 silly cache add   name: 'koa-errorhandler',
+407 silly cache add   rawSpec: '0.1.1',
+407 silly cache add   spec: '0.1.1',
+407 silly cache add   type: 'version' }
+408 silly addNamed koa-errorhandler@0.1.1
+409 verbose addNamed "0.1.1" is a plain semver version for koa-errorhandler
+410 silly mapToRegistry name koa-errorhandler
+411 silly mapToRegistry using default registry
+412 silly mapToRegistry registry https://registry.npmjs.org/
+413 silly mapToRegistry data Result {
+413 silly mapToRegistry   raw: 'koa-errorhandler',
+413 silly mapToRegistry   scope: null,
+413 silly mapToRegistry   name: 'koa-errorhandler',
+413 silly mapToRegistry   rawSpec: '',
+413 silly mapToRegistry   spec: 'latest',
+413 silly mapToRegistry   type: 'tag' }
+414 silly mapToRegistry uri https://registry.npmjs.org/koa-errorhandler
+415 verbose addNameVersion registry:https://registry.npmjs.org/koa-errorhandler not in flight; fetching
+416 http 404 https://registry.npmjs.org/merge-description
+417 verbose headers { 'content-type': 'application/json',
+417 verbose headers   'cache-control': 'max-age=0',
+417 verbose headers   'content-length': '2',
+417 verbose headers   'accept-ranges': 'bytes',
+417 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+417 verbose headers   via: '1.1 varnish',
+417 verbose headers   age: '0',
+417 verbose headers   connection: 'keep-alive',
+417 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+417 verbose headers   'x-cache': 'MISS',
+417 verbose headers   'x-cache-hits': '0',
+417 verbose headers   'x-timer': 'S1463817490.188941,VS0,VE244',
+417 verbose headers   vary: 'Accept-Encoding' }
+418 silly get cb [ 404,
+418 silly get   { 'content-type': 'application/json',
+418 silly get     'cache-control': 'max-age=0',
+418 silly get     'content-length': '2',
+418 silly get     'accept-ranges': 'bytes',
+418 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+418 silly get     via: '1.1 varnish',
+418 silly get     age: '0',
+418 silly get     connection: 'keep-alive',
+418 silly get     'x-served-by': 'cache-sin6922-SIN',
+418 silly get     'x-cache': 'MISS',
+418 silly get     'x-cache-hits': '0',
+418 silly get     'x-timer': 'S1463817490.188941,VS0,VE244',
+418 silly get     vary: 'Accept-Encoding' } ]
+419 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/merge-description
+419 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+419 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+419 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+419 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+419 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+419 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+419 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+419 silly fetchPackageMetaData     at emitOne (events.js:101:20)
+419 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+419 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+419 silly fetchPackageMetaData  error for merge-description@1.0.0 { Error: Registry returned 404 for GET on https://registry.npmjs.org/merge-description
+419 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+419 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+419 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+419 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+419 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+419 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+419 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+419 silly fetchPackageMetaData     at emitOne (events.js:101:20)
+419 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+419 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:988:12) pkgid: 'merge-description', statusCode: 404, code: 'E404' }
+420 http 200 https://registry.npmjs.org/koa-router-cache
+421 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+421 verbose headers   etag: '"2HRC6J5YAP2TPZ5O4IT81EJP4"',
+421 verbose headers   'content-type': 'application/json',
+421 verbose headers   'content-encoding': 'gzip',
+421 verbose headers   'cache-control': 'max-age=300',
+421 verbose headers   'content-length': '3626',
+421 verbose headers   'accept-ranges': 'bytes',
+421 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+421 verbose headers   via: '1.1 varnish',
+421 verbose headers   age: '0',
+421 verbose headers   connection: 'keep-alive',
+421 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+421 verbose headers   'x-cache': 'MISS',
+421 verbose headers   'x-cache-hits': '0',
+421 verbose headers   'x-timer': 'S1463817490.170964,VS0,VE257',
+421 verbose headers   vary: 'Accept-Encoding' }
+422 silly get cb [ 200,
+422 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+422 silly get     etag: '"2HRC6J5YAP2TPZ5O4IT81EJP4"',
+422 silly get     'content-type': 'application/json',
+422 silly get     'content-encoding': 'gzip',
+422 silly get     'cache-control': 'max-age=300',
+422 silly get     'content-length': '3626',
+422 silly get     'accept-ranges': 'bytes',
+422 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+422 silly get     via: '1.1 varnish',
+422 silly get     age: '0',
+422 silly get     connection: 'keep-alive',
+422 silly get     'x-served-by': 'cache-sin6922-SIN',
+422 silly get     'x-cache': 'MISS',
+422 silly get     'x-cache-hits': '0',
+422 silly get     'x-timer': 'S1463817490.170964,VS0,VE257',
+422 silly get     vary: 'Accept-Encoding' } ]
+423 verbose get saving koa-router-cache to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\koa-router-cache\.cache.json
+424 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+425 verbose get https://registry.npmjs.org/koa-errorhandler not expired, no request
+426 silly fetchAndShaCheck shasum 35e29555dd5f7826f970a4eaecff9e6df6df3da6
+427 silly mapToRegistry name koa-errorhandler
+428 silly mapToRegistry using default registry
+429 silly mapToRegistry registry https://registry.npmjs.org/
+430 silly mapToRegistry data Result {
+430 silly mapToRegistry   raw: 'koa-errorhandler',
+430 silly mapToRegistry   scope: null,
+430 silly mapToRegistry   name: 'koa-errorhandler',
+430 silly mapToRegistry   rawSpec: '',
+430 silly mapToRegistry   spec: 'latest',
+430 silly mapToRegistry   type: 'tag' }
+431 silly mapToRegistry uri https://registry.npmjs.org/koa-errorhandler
+432 verbose addRemoteTarball https://registry.npmjs.org/koa-errorhandler/-/koa-errorhandler-0.1.1.tgz not in flight; adding
+433 verbose addRemoteTarball [ 'https://registry.npmjs.org/koa-errorhandler/-/koa-errorhandler-0.1.1.tgz',
+433 verbose addRemoteTarball   'cc778e5a4732d7f8754da28d8932ab10970e365b' ]
+434 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\validator\-\validator-4.4.0.tgz not in flight; adding
+435 verbose addTmpTarball already have metadata; skipping unpack for validator@4.4.0
+436 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+437 silly resolveWithNewModule koa-frouter@0.3.2 checking installable status
+438 silly cache add args [ 'koa-frouter@0.3.2', null ]
+439 verbose cache add spec koa-frouter@0.3.2
+440 silly cache add parsed spec Result {
+440 silly cache add   raw: 'koa-frouter@0.3.2',
+440 silly cache add   scope: null,
+440 silly cache add   name: 'koa-frouter',
+440 silly cache add   rawSpec: '0.3.2',
+440 silly cache add   spec: '0.3.2',
+440 silly cache add   type: 'version' }
+441 silly addNamed koa-frouter@0.3.2
+442 verbose addNamed "0.3.2" is a plain semver version for koa-frouter
+443 silly mapToRegistry name koa-frouter
+444 silly mapToRegistry using default registry
+445 silly mapToRegistry registry https://registry.npmjs.org/
+446 silly mapToRegistry data Result {
+446 silly mapToRegistry   raw: 'koa-frouter',
+446 silly mapToRegistry   scope: null,
+446 silly mapToRegistry   name: 'koa-frouter',
+446 silly mapToRegistry   rawSpec: '',
+446 silly mapToRegistry   spec: 'latest',
+446 silly mapToRegistry   type: 'tag' }
+447 silly mapToRegistry uri https://registry.npmjs.org/koa-frouter
+448 verbose addNameVersion registry:https://registry.npmjs.org/koa-frouter not in flight; fetching
+449 info retry fetch attempt 1 at 15:58:10
+450 info attempt registry request try #1 at 15:58:10
+451 http fetch GET https://registry.npmjs.org/koa-errorhandler/-/koa-errorhandler-0.1.1.tgz
+452 silly resolveWithNewModule koa-gzip@0.1.0 checking installable status
+453 silly cache add args [ 'koa-gzip@0.1.0', null ]
+454 verbose cache add spec koa-gzip@0.1.0
+455 silly cache add parsed spec Result {
+455 silly cache add   raw: 'koa-gzip@0.1.0',
+455 silly cache add   scope: null,
+455 silly cache add   name: 'koa-gzip',
+455 silly cache add   rawSpec: '0.1.0',
+455 silly cache add   spec: '0.1.0',
+455 silly cache add   type: 'version' }
+456 silly addNamed koa-gzip@0.1.0
+457 verbose addNamed "0.1.0" is a plain semver version for koa-gzip
+458 silly mapToRegistry name koa-gzip
+459 silly mapToRegistry using default registry
+460 silly mapToRegistry registry https://registry.npmjs.org/
+461 silly mapToRegistry data Result {
+461 silly mapToRegistry   raw: 'koa-gzip',
+461 silly mapToRegistry   scope: null,
+461 silly mapToRegistry   name: 'koa-gzip',
+461 silly mapToRegistry   rawSpec: '',
+461 silly mapToRegistry   spec: 'latest',
+461 silly mapToRegistry   type: 'tag' }
+462 silly mapToRegistry uri https://registry.npmjs.org/koa-gzip
+463 verbose addNameVersion registry:https://registry.npmjs.org/koa-gzip not in flight; fetching
+464 silly resolveWithNewModule co-cache@2.0.1 checking installable status
+465 silly cache add args [ 'co-cache@2.0.1', null ]
+466 verbose cache add spec co-cache@2.0.1
+467 silly cache add parsed spec Result {
+467 silly cache add   raw: 'co-cache@2.0.1',
+467 silly cache add   scope: null,
+467 silly cache add   name: 'co-cache',
+467 silly cache add   rawSpec: '2.0.1',
+467 silly cache add   spec: '2.0.1',
+467 silly cache add   type: 'version' }
+468 silly addNamed co-cache@2.0.1
+469 verbose addNamed "2.0.1" is a plain semver version for co-cache
+470 silly mapToRegistry name co-cache
+471 silly mapToRegistry using default registry
+472 silly mapToRegistry registry https://registry.npmjs.org/
+473 silly mapToRegistry data Result {
+473 silly mapToRegistry   raw: 'co-cache',
+473 silly mapToRegistry   scope: null,
+473 silly mapToRegistry   name: 'co-cache',
+473 silly mapToRegistry   rawSpec: '',
+473 silly mapToRegistry   spec: 'latest',
+473 silly mapToRegistry   type: 'tag' }
+474 silly mapToRegistry uri https://registry.npmjs.org/co-cache
+475 verbose addNameVersion registry:https://registry.npmjs.org/co-cache not in flight; fetching
+476 http 200 https://registry.npmjs.org/koa-scheme
+477 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+477 verbose headers   etag: '"AYMSJE4BOADMRJOBSYWZ0A0YY"',
+477 verbose headers   'content-type': 'application/json',
+477 verbose headers   'content-encoding': 'gzip',
+477 verbose headers   'cache-control': 'max-age=300',
+477 verbose headers   'content-length': '4362',
+477 verbose headers   'accept-ranges': 'bytes',
+477 verbose headers   date: 'Sat, 21 May 2016 07:58:10 GMT',
+477 verbose headers   via: '1.1 varnish',
+477 verbose headers   age: '0',
+477 verbose headers   connection: 'keep-alive',
+477 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+477 verbose headers   'x-cache': 'MISS',
+477 verbose headers   'x-cache-hits': '0',
+477 verbose headers   'x-timer': 'S1463817490.185248,VS0,VE263',
+477 verbose headers   vary: 'Accept-Encoding' }
+478 silly get cb [ 200,
+478 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+478 silly get     etag: '"AYMSJE4BOADMRJOBSYWZ0A0YY"',
+478 silly get     'content-type': 'application/json',
+478 silly get     'content-encoding': 'gzip',
+478 silly get     'cache-control': 'max-age=300',
+478 silly get     'content-length': '4362',
+478 silly get     'accept-ranges': 'bytes',
+478 silly get     date: 'Sat, 21 May 2016 07:58:10 GMT',
+478 silly get     via: '1.1 varnish',
+478 silly get     age: '0',
+478 silly get     connection: 'keep-alive',
+478 silly get     'x-served-by': 'cache-sin6927-SIN',
+478 silly get     'x-cache': 'MISS',
+478 silly get     'x-cache-hits': '0',
+478 silly get     'x-timer': 'S1463817490.185248,VS0,VE263',
+478 silly get     vary: 'Accept-Encoding' } ]
+479 verbose get saving koa-scheme to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\koa-scheme\.cache.json
+480 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+481 verbose get https://registry.npmjs.org/koa-frouter not expired, no request
+482 silly resolveWithNewModule koa-router-cache@1.3.1 checking installable status
+483 silly cache add args [ 'koa-router-cache@', null ]
+484 verbose cache add spec koa-router-cache@
+485 silly mapToRegistry name koa-frouter
+486 silly mapToRegistry using default registry
+487 silly mapToRegistry registry https://registry.npmjs.org/
+488 silly mapToRegistry data Result {
+488 silly mapToRegistry   raw: 'koa-frouter',
+488 silly mapToRegistry   scope: null,
+488 silly mapToRegistry   name: 'koa-frouter',
+488 silly mapToRegistry   rawSpec: '',
+488 silly mapToRegistry   spec: 'latest',
+488 silly mapToRegistry   type: 'tag' }
+489 silly mapToRegistry uri https://registry.npmjs.org/koa-frouter
+490 verbose addRemoteTarball https://registry.npmjs.org/koa-frouter/-/koa-frouter-0.3.2.tgz not in flight; adding
+491 verbose addRemoteTarball [ 'https://registry.npmjs.org/koa-frouter/-/koa-frouter-0.3.2.tgz',
+491 verbose addRemoteTarball   'd005bcf26d28c87fe68719a986ddec63c702e620' ]
+492 verbose get https://registry.npmjs.org/koa-gzip not expired, no request
+493 warn deprecated koa-gzip@0.1.0: please use koa-compress instead.
+494 silly cache add parsed spec Result {
+494 silly cache add   raw: 'koa-router-cache@',
+494 silly cache add   scope: null,
+494 silly cache add   name: 'koa-router-cache',
+494 silly cache add   rawSpec: '',
+494 silly cache add   spec: 'latest',
+494 silly cache add   type: 'tag' }
+495 silly addNamed koa-router-cache@latest
+496 verbose addNamed "latest" is being treated as a dist-tag for koa-router-cache
+497 info addNameTag [ 'koa-router-cache', 'latest' ]
+498 silly mapToRegistry name koa-router-cache
+499 silly mapToRegistry using default registry
+500 silly mapToRegistry registry https://registry.npmjs.org/
+501 silly mapToRegistry data Result {
+501 silly mapToRegistry   raw: 'koa-router-cache',
+501 silly mapToRegistry   scope: null,
+501 silly mapToRegistry   name: 'koa-router-cache',
+501 silly mapToRegistry   rawSpec: '',
+501 silly mapToRegistry   spec: 'latest',
+501 silly mapToRegistry   type: 'tag' }
+502 silly mapToRegistry uri https://registry.npmjs.org/koa-router-cache
+503 verbose addNameTag registry:https://registry.npmjs.org/koa-router-cache not in flight; fetching
+504 silly mapToRegistry name koa-gzip
+505 silly mapToRegistry using default registry
+506 silly mapToRegistry registry https://registry.npmjs.org/
+507 silly mapToRegistry data Result {
+507 silly mapToRegistry   raw: 'koa-gzip',
+507 silly mapToRegistry   scope: null,
+507 silly mapToRegistry   name: 'koa-gzip',
+507 silly mapToRegistry   rawSpec: '',
+507 silly mapToRegistry   spec: 'latest',
+507 silly mapToRegistry   type: 'tag' }
+508 silly mapToRegistry uri https://registry.npmjs.org/koa-gzip
+509 verbose addRemoteTarball https://registry.npmjs.org/koa-gzip/-/koa-gzip-0.1.0.tgz not in flight; adding
+510 verbose addRemoteTarball [ 'https://registry.npmjs.org/koa-gzip/-/koa-gzip-0.1.0.tgz',
+510 verbose addRemoteTarball   'a656386ff99bd65f04c5d705b8c1b40b388e5b06' ]
+511 verbose get https://registry.npmjs.org/co-cache not expired, no request
+512 silly mapToRegistry name co-cache
+513 silly mapToRegistry using default registry
+514 silly mapToRegistry registry https://registry.npmjs.org/
+515 silly mapToRegistry data Result {
+515 silly mapToRegistry   raw: 'co-cache',
+515 silly mapToRegistry   scope: null,
+515 silly mapToRegistry   name: 'co-cache',
+515 silly mapToRegistry   rawSpec: '',
+515 silly mapToRegistry   spec: 'latest',
+515 silly mapToRegistry   type: 'tag' }
+516 silly mapToRegistry uri https://registry.npmjs.org/co-cache
+517 verbose addRemoteTarball https://registry.npmjs.org/co-cache/-/co-cache-2.0.1.tgz not in flight; adding
+518 verbose addRemoteTarball [ 'https://registry.npmjs.org/co-cache/-/co-cache-2.0.1.tgz',
+518 verbose addRemoteTarball   'c349d7a09f13ea6f7ebc9775939d919b367f4fe7' ]
+519 info retry fetch attempt 1 at 15:58:10
+520 info attempt registry request try #1 at 15:58:10
+521 http fetch GET https://registry.npmjs.org/koa-frouter/-/koa-frouter-0.3.2.tgz
+522 info retry fetch attempt 1 at 15:58:10
+523 info attempt registry request try #1 at 15:58:10
+524 http fetch GET https://registry.npmjs.org/koa-gzip/-/koa-gzip-0.1.0.tgz
+525 http fetch 200 https://registry.npmjs.org/koa-generic-session/-/koa-generic-session-1.10.0.tgz
+526 silly cache afterAdd validator@4.4.0
+527 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\validator\4.4.0\package\package.json not in flight; writing
+528 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+529 verbose get https://registry.npmjs.org/koa-router-cache not expired, no request
+530 silly addNameTag next cb for koa-router-cache with tag latest
+531 silly addNamed koa-router-cache@1.3.1
+532 verbose addNamed "1.3.1" is a plain semver version for koa-router-cache
+533 info retry fetch attempt 1 at 15:58:10
+534 info attempt registry request try #1 at 15:58:10
+535 http fetch GET https://registry.npmjs.org/co-cache/-/co-cache-2.0.1.tgz
+536 silly mapToRegistry name koa-router-cache
+537 silly mapToRegistry using default registry
+538 silly mapToRegistry registry https://registry.npmjs.org/
+539 silly mapToRegistry data Result {
+539 silly mapToRegistry   raw: 'koa-router-cache',
+539 silly mapToRegistry   scope: null,
+539 silly mapToRegistry   name: 'koa-router-cache',
+539 silly mapToRegistry   rawSpec: '',
+539 silly mapToRegistry   spec: 'latest',
+539 silly mapToRegistry   type: 'tag' }
+540 silly mapToRegistry uri https://registry.npmjs.org/koa-router-cache
+541 verbose addRemoteTarball https://registry.npmjs.org/koa-router-cache/-/koa-router-cache-1.3.1.tgz not in flight; adding
+542 verbose addRemoteTarball [ 'https://registry.npmjs.org/koa-router-cache/-/koa-router-cache-1.3.1.tgz',
+542 verbose addRemoteTarball   'b33e300dfa6bf0df1147056d7f35b951a607ae28' ]
+543 silly resolveWithNewModule koa-scheme@2.2.0 checking installable status
+544 silly cache add args [ 'koa-scheme@2.2.0', null ]
+545 verbose cache add spec koa-scheme@2.2.0
+546 silly cache add parsed spec Result {
+546 silly cache add   raw: 'koa-scheme@2.2.0',
+546 silly cache add   scope: null,
+546 silly cache add   name: 'koa-scheme',
+546 silly cache add   rawSpec: '2.2.0',
+546 silly cache add   spec: '2.2.0',
+546 silly cache add   type: 'version' }
+547 silly addNamed koa-scheme@2.2.0
+548 verbose addNamed "2.2.0" is a plain semver version for koa-scheme
+549 silly mapToRegistry name koa-scheme
+550 silly mapToRegistry using default registry
+551 silly mapToRegistry registry https://registry.npmjs.org/
+552 silly mapToRegistry data Result {
+552 silly mapToRegistry   raw: 'koa-scheme',
+552 silly mapToRegistry   scope: null,
+552 silly mapToRegistry   name: 'koa-scheme',
+552 silly mapToRegistry   rawSpec: '',
+552 silly mapToRegistry   spec: 'latest',
+552 silly mapToRegistry   type: 'tag' }
+553 silly mapToRegistry uri https://registry.npmjs.org/koa-scheme
+554 verbose addNameVersion registry:https://registry.npmjs.org/koa-scheme not in flight; fetching
+555 info retry fetch attempt 1 at 15:58:10
+556 info attempt registry request try #1 at 15:58:10
+557 http fetch GET https://registry.npmjs.org/koa-router-cache/-/koa-router-cache-1.3.1.tgz
+558 silly fetchAndShaCheck shasum 5449fa5ef0e5ad3bd9e8f6ceebf3ccdc0760fe31
+559 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\validator\4.4.0\package\package.json written
+560 verbose get https://registry.npmjs.org/koa-scheme not expired, no request
+561 silly mapToRegistry name koa-scheme
+562 silly mapToRegistry using default registry
+563 silly mapToRegistry registry https://registry.npmjs.org/
+564 silly mapToRegistry data Result {
+564 silly mapToRegistry   raw: 'koa-scheme',
+564 silly mapToRegistry   scope: null,
+564 silly mapToRegistry   name: 'koa-scheme',
+564 silly mapToRegistry   rawSpec: '',
+564 silly mapToRegistry   spec: 'latest',
+564 silly mapToRegistry   type: 'tag' }
+565 silly mapToRegistry uri https://registry.npmjs.org/koa-scheme
+566 verbose addRemoteTarball https://registry.npmjs.org/koa-scheme/-/koa-scheme-2.2.0.tgz not in flight; adding
+567 verbose addRemoteTarball [ 'https://registry.npmjs.org/koa-scheme/-/koa-scheme-2.2.0.tgz',
+567 verbose addRemoteTarball   '660d7b1bd30b6c180b6e3e0a99d78e43c489bc8b' ]
+568 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\koa-generic-session\-\koa-generic-session-1.10.0.tgz not in flight; adding
+569 verbose addTmpTarball already have metadata; skipping unpack for koa-generic-session@1.10.0
+570 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+571 http fetch 200 https://registry.npmjs.org/koa-bodyparser/-/koa-bodyparser-2.0.1.tgz
+572 info retry fetch attempt 1 at 15:58:10
+573 info attempt registry request try #1 at 15:58:10
+574 http fetch GET https://registry.npmjs.org/koa-scheme/-/koa-scheme-2.2.0.tgz
+575 silly fetchAndShaCheck shasum f9ba408eb946e257cfce17daf8c765c58755de72
+576 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\koa-bodyparser\-\koa-bodyparser-2.0.1.tgz not in flight; adding
+577 verbose addTmpTarball already have metadata; skipping unpack for koa-bodyparser@2.0.1
+578 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+579 silly cache afterAdd koa-generic-session@1.10.0
+580 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-generic-session\1.10.0\package\package.json not in flight; writing
+581 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+582 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-generic-session\1.10.0\package\package.json written
+583 silly cache afterAdd koa-bodyparser@2.0.1
+584 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-bodyparser\2.0.1\package\package.json not in flight; writing
+585 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+586 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-bodyparser\2.0.1\package\package.json written
+587 http fetch 200 https://registry.npmjs.org/mongoose/-/mongoose-4.2.9.tgz
+588 http fetch 200 https://registry.npmjs.org/koa-errorhandler/-/koa-errorhandler-0.1.1.tgz
+589 silly fetchAndShaCheck shasum cc778e5a4732d7f8754da28d8932ab10970e365b
+590 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\koa-errorhandler\-\koa-errorhandler-0.1.1.tgz not in flight; adding
+591 verbose addTmpTarball already have metadata; skipping unpack for koa-errorhandler@0.1.1
+592 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+593 silly cache afterAdd koa-errorhandler@0.1.1
+594 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-errorhandler\0.1.1\package\package.json not in flight; writing
+595 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+596 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-errorhandler\0.1.1\package\package.json written
+597 http fetch 200 https://registry.npmjs.org/koa-scheme/-/koa-scheme-2.2.0.tgz
+598 http fetch 200 https://registry.npmjs.org/koa-frouter/-/koa-frouter-0.3.2.tgz
+599 silly fetchAndShaCheck shasum 660d7b1bd30b6c180b6e3e0a99d78e43c489bc8b
+600 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\koa-scheme\-\koa-scheme-2.2.0.tgz not in flight; adding
+601 verbose addTmpTarball already have metadata; skipping unpack for koa-scheme@2.2.0
+602 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+603 silly fetchAndShaCheck shasum d005bcf26d28c87fe68719a986ddec63c702e620
+604 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\koa-frouter\-\koa-frouter-0.3.2.tgz not in flight; adding
+605 verbose addTmpTarball already have metadata; skipping unpack for koa-frouter@0.3.2
+606 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+607 silly cache afterAdd koa-scheme@2.2.0
+608 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-scheme\2.2.0\package\package.json not in flight; writing
+609 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+610 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-scheme\2.2.0\package\package.json written
+611 silly cache afterAdd koa-frouter@0.3.2
+612 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-frouter\0.3.2\package\package.json not in flight; writing
+613 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+614 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-frouter\0.3.2\package\package.json written
+615 silly fetchAndShaCheck shasum 7801aff3ae7a8762f74aa544940b562fd836527a
+616 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\mongoose\-\mongoose-4.2.9.tgz not in flight; adding
+617 verbose addTmpTarball already have metadata; skipping unpack for mongoose@4.2.9
+618 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+619 silly cache afterAdd mongoose@4.2.9
+620 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\mongoose\4.2.9\package\package.json not in flight; writing
+621 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+622 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\mongoose\4.2.9\package\package.json written
+623 http 200 https://registry.npmjs.org/koa-generic-session-mongo
+624 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+624 verbose headers   etag: '"BCXRXFLZOIAEACHUPOTULKQ7G"',
+624 verbose headers   'content-type': 'application/json',
+624 verbose headers   'content-encoding': 'gzip',
+624 verbose headers   'cache-control': 'max-age=300',
+624 verbose headers   'content-length': '2388',
+624 verbose headers   'accept-ranges': 'bytes',
+624 verbose headers   date: 'Sat, 21 May 2016 07:58:11 GMT',
+624 verbose headers   via: '1.1 varnish',
+624 verbose headers   age: '0',
+624 verbose headers   connection: 'keep-alive',
+624 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+624 verbose headers   'x-cache': 'MISS',
+624 verbose headers   'x-cache-hits': '0',
+624 verbose headers   'x-timer': 'S1463817490.163593,VS0,VE843',
+624 verbose headers   vary: 'Accept-Encoding' }
+625 silly get cb [ 200,
+625 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+625 silly get     etag: '"BCXRXFLZOIAEACHUPOTULKQ7G"',
+625 silly get     'content-type': 'application/json',
+625 silly get     'content-encoding': 'gzip',
+625 silly get     'cache-control': 'max-age=300',
+625 silly get     'content-length': '2388',
+625 silly get     'accept-ranges': 'bytes',
+625 silly get     date: 'Sat, 21 May 2016 07:58:11 GMT',
+625 silly get     via: '1.1 varnish',
+625 silly get     age: '0',
+625 silly get     connection: 'keep-alive',
+625 silly get     'x-served-by': 'cache-sin6923-SIN',
+625 silly get     'x-cache': 'MISS',
+625 silly get     'x-cache-hits': '0',
+625 silly get     'x-timer': 'S1463817490.163593,VS0,VE843',
+625 silly get     vary: 'Accept-Encoding' } ]
+626 verbose get saving koa-generic-session-mongo to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\koa-generic-session-mongo\.cache.json
+627 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+628 silly resolveWithNewModule koa-generic-session-mongo@0.2.4 checking installable status
+629 silly cache add args [ 'koa-generic-session-mongo@0.2.4', null ]
+630 verbose cache add spec koa-generic-session-mongo@0.2.4
+631 silly cache add parsed spec Result {
+631 silly cache add   raw: 'koa-generic-session-mongo@0.2.4',
+631 silly cache add   scope: null,
+631 silly cache add   name: 'koa-generic-session-mongo',
+631 silly cache add   rawSpec: '0.2.4',
+631 silly cache add   spec: '0.2.4',
+631 silly cache add   type: 'version' }
+632 silly addNamed koa-generic-session-mongo@0.2.4
+633 verbose addNamed "0.2.4" is a plain semver version for koa-generic-session-mongo
+634 silly mapToRegistry name koa-generic-session-mongo
+635 silly mapToRegistry using default registry
+636 silly mapToRegistry registry https://registry.npmjs.org/
+637 silly mapToRegistry data Result {
+637 silly mapToRegistry   raw: 'koa-generic-session-mongo',
+637 silly mapToRegistry   scope: null,
+637 silly mapToRegistry   name: 'koa-generic-session-mongo',
+637 silly mapToRegistry   rawSpec: '',
+637 silly mapToRegistry   spec: 'latest',
+637 silly mapToRegistry   type: 'tag' }
+638 silly mapToRegistry uri https://registry.npmjs.org/koa-generic-session-mongo
+639 verbose addNameVersion registry:https://registry.npmjs.org/koa-generic-session-mongo not in flight; fetching
+640 verbose get https://registry.npmjs.org/koa-generic-session-mongo not expired, no request
+641 silly mapToRegistry name koa-generic-session-mongo
+642 silly mapToRegistry using default registry
+643 silly mapToRegistry registry https://registry.npmjs.org/
+644 silly mapToRegistry data Result {
+644 silly mapToRegistry   raw: 'koa-generic-session-mongo',
+644 silly mapToRegistry   scope: null,
+644 silly mapToRegistry   name: 'koa-generic-session-mongo',
+644 silly mapToRegistry   rawSpec: '',
+644 silly mapToRegistry   spec: 'latest',
+644 silly mapToRegistry   type: 'tag' }
+645 silly mapToRegistry uri https://registry.npmjs.org/koa-generic-session-mongo
+646 verbose addRemoteTarball https://registry.npmjs.org/koa-generic-session-mongo/-/koa-generic-session-mongo-0.2.4.tgz not in flight; adding
+647 verbose addRemoteTarball [ 'https://registry.npmjs.org/koa-generic-session-mongo/-/koa-generic-session-mongo-0.2.4.tgz',
+647 verbose addRemoteTarball   '9a83af6fdc2556459a1ec20ccf0fb5ee7fd13820' ]
+648 info retry fetch attempt 1 at 15:58:11
+649 info attempt registry request try #1 at 15:58:11
+650 http fetch GET https://registry.npmjs.org/koa-generic-session-mongo/-/koa-generic-session-mongo-0.2.4.tgz
+651 http 200 https://registry.npmjs.org/co-ejs
+652 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+652 verbose headers   etag: '"4GXZFHZ9R8LYKHTIWX083UIEJ"',
+652 verbose headers   'content-type': 'application/json',
+652 verbose headers   'content-encoding': 'gzip',
+652 verbose headers   'cache-control': 'max-age=300',
+652 verbose headers   'content-length': '2967',
+652 verbose headers   'accept-ranges': 'bytes',
+652 verbose headers   date: 'Sat, 21 May 2016 07:58:11 GMT',
+652 verbose headers   via: '1.1 varnish',
+652 verbose headers   age: '0',
+652 verbose headers   connection: 'keep-alive',
+652 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+652 verbose headers   'x-cache': 'MISS',
+652 verbose headers   'x-cache-hits': '0',
+652 verbose headers   'x-timer': 'S1463817490.178192,VS0,VE865',
+652 verbose headers   vary: 'Accept-Encoding' }
+653 silly get cb [ 200,
+653 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+653 silly get     etag: '"4GXZFHZ9R8LYKHTIWX083UIEJ"',
+653 silly get     'content-type': 'application/json',
+653 silly get     'content-encoding': 'gzip',
+653 silly get     'cache-control': 'max-age=300',
+653 silly get     'content-length': '2967',
+653 silly get     'accept-ranges': 'bytes',
+653 silly get     date: 'Sat, 21 May 2016 07:58:11 GMT',
+653 silly get     via: '1.1 varnish',
+653 silly get     age: '0',
+653 silly get     connection: 'keep-alive',
+653 silly get     'x-served-by': 'cache-sin6921-SIN',
+653 silly get     'x-cache': 'MISS',
+653 silly get     'x-cache-hits': '0',
+653 silly get     'x-timer': 'S1463817490.178192,VS0,VE865',
+653 silly get     vary: 'Accept-Encoding' } ]
+654 verbose get saving co-ejs to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\co-ejs\.cache.json
+655 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+656 silly resolveWithNewModule co-ejs@1.5.2 checking installable status
+657 silly cache add args [ 'co-ejs@1.5.2', null ]
+658 verbose cache add spec co-ejs@1.5.2
+659 silly cache add parsed spec Result {
+659 silly cache add   raw: 'co-ejs@1.5.2',
+659 silly cache add   scope: null,
+659 silly cache add   name: 'co-ejs',
+659 silly cache add   rawSpec: '1.5.2',
+659 silly cache add   spec: '1.5.2',
+659 silly cache add   type: 'version' }
+660 silly addNamed co-ejs@1.5.2
+661 verbose addNamed "1.5.2" is a plain semver version for co-ejs
+662 silly mapToRegistry name co-ejs
+663 silly mapToRegistry using default registry
+664 silly mapToRegistry registry https://registry.npmjs.org/
+665 silly mapToRegistry data Result {
+665 silly mapToRegistry   raw: 'co-ejs',
+665 silly mapToRegistry   scope: null,
+665 silly mapToRegistry   name: 'co-ejs',
+665 silly mapToRegistry   rawSpec: '',
+665 silly mapToRegistry   spec: 'latest',
+665 silly mapToRegistry   type: 'tag' }
+666 silly mapToRegistry uri https://registry.npmjs.org/co-ejs
+667 verbose addNameVersion registry:https://registry.npmjs.org/co-ejs not in flight; fetching
+668 verbose get https://registry.npmjs.org/co-ejs not expired, no request
+669 silly mapToRegistry name co-ejs
+670 silly mapToRegistry using default registry
+671 silly mapToRegistry registry https://registry.npmjs.org/
+672 silly mapToRegistry data Result {
+672 silly mapToRegistry   raw: 'co-ejs',
+672 silly mapToRegistry   scope: null,
+672 silly mapToRegistry   name: 'co-ejs',
+672 silly mapToRegistry   rawSpec: '',
+672 silly mapToRegistry   spec: 'latest',
+672 silly mapToRegistry   type: 'tag' }
+673 silly mapToRegistry uri https://registry.npmjs.org/co-ejs
+674 verbose addRemoteTarball https://registry.npmjs.org/co-ejs/-/co-ejs-1.5.2.tgz not in flight; adding
+675 verbose addRemoteTarball [ 'https://registry.npmjs.org/co-ejs/-/co-ejs-1.5.2.tgz',
+675 verbose addRemoteTarball   '1b98f94cc895c52a0e2bf0bb71ffa3236f3e1756' ]
+676 info retry fetch attempt 1 at 15:58:11
+677 info attempt registry request try #1 at 15:58:11
+678 http fetch GET https://registry.npmjs.org/co-ejs/-/co-ejs-1.5.2.tgz
+679 http fetch 200 https://registry.npmjs.org/koa-gzip/-/koa-gzip-0.1.0.tgz
+680 silly fetchAndShaCheck shasum a656386ff99bd65f04c5d705b8c1b40b388e5b06
+681 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\koa-gzip\-\koa-gzip-0.1.0.tgz not in flight; adding
+682 verbose addTmpTarball already have metadata; skipping unpack for koa-gzip@0.1.0
+683 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+684 http fetch 200 https://registry.npmjs.org/koa-router-cache/-/koa-router-cache-1.3.1.tgz
+685 http fetch 200 https://registry.npmjs.org/co-cache/-/co-cache-2.0.1.tgz
+686 silly cache afterAdd koa-gzip@0.1.0
+687 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-gzip\0.1.0\package\package.json not in flight; writing
+688 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+689 silly fetchAndShaCheck shasum b33e300dfa6bf0df1147056d7f35b951a607ae28
+690 http 200 https://registry.npmjs.org/config-lite
+691 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+691 verbose headers   etag: '"EGLEYW0VLFH1IR4PLLK0WY1T1"',
+691 verbose headers   'content-type': 'application/json',
+691 verbose headers   'content-encoding': 'gzip',
+691 verbose headers   'cache-control': 'max-age=300',
+691 verbose headers   'content-length': '2022',
+691 verbose headers   'accept-ranges': 'bytes',
+691 verbose headers   date: 'Sat, 21 May 2016 07:58:11 GMT',
+691 verbose headers   via: '1.1 varnish',
+691 verbose headers   age: '0',
+691 verbose headers   connection: 'keep-alive',
+691 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+691 verbose headers   'x-cache': 'MISS',
+691 verbose headers   'x-cache-hits': '0',
+691 verbose headers   'x-timer': 'S1463817490.181183,VS0,VE975',
+691 verbose headers   vary: 'Accept-Encoding' }
+692 silly get cb [ 200,
+692 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+692 silly get     etag: '"EGLEYW0VLFH1IR4PLLK0WY1T1"',
+692 silly get     'content-type': 'application/json',
+692 silly get     'content-encoding': 'gzip',
+692 silly get     'cache-control': 'max-age=300',
+692 silly get     'content-length': '2022',
+692 silly get     'accept-ranges': 'bytes',
+692 silly get     date: 'Sat, 21 May 2016 07:58:11 GMT',
+692 silly get     via: '1.1 varnish',
+692 silly get     age: '0',
+692 silly get     connection: 'keep-alive',
+692 silly get     'x-served-by': 'cache-sin6925-SIN',
+692 silly get     'x-cache': 'MISS',
+692 silly get     'x-cache-hits': '0',
+692 silly get     'x-timer': 'S1463817490.181183,VS0,VE975',
+692 silly get     vary: 'Accept-Encoding' } ]
+693 verbose get saving config-lite to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\config-lite\.cache.json
+694 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+695 silly fetchAndShaCheck shasum c349d7a09f13ea6f7ebc9775939d919b367f4fe7
+696 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\koa-router-cache\-\koa-router-cache-1.3.1.tgz not in flight; adding
+697 verbose addTmpTarball already have metadata; skipping unpack for koa-router-cache@1.3.1
+698 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+699 http 200 https://registry.npmjs.org/koa-flash
+700 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+700 verbose headers   etag: '"8HVMJ6JYSTPETQ1EBQTOA0QSV"',
+700 verbose headers   'content-type': 'application/json',
+700 verbose headers   'content-encoding': 'gzip',
+700 verbose headers   'cache-control': 'max-age=300',
+700 verbose headers   'content-length': '1843',
+700 verbose headers   'accept-ranges': 'bytes',
+700 verbose headers   date: 'Sat, 21 May 2016 07:58:11 GMT',
+700 verbose headers   via: '1.1 varnish',
+700 verbose headers   age: '0',
+700 verbose headers   connection: 'keep-alive',
+700 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+700 verbose headers   'x-cache': 'MISS',
+700 verbose headers   'x-cache-hits': '0',
+700 verbose headers   'x-timer': 'S1463817490.170136,VS0,VE987',
+700 verbose headers   vary: 'Accept-Encoding' }
+701 silly get cb [ 200,
+701 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+701 silly get     etag: '"8HVMJ6JYSTPETQ1EBQTOA0QSV"',
+701 silly get     'content-type': 'application/json',
+701 silly get     'content-encoding': 'gzip',
+701 silly get     'cache-control': 'max-age=300',
+701 silly get     'content-length': '1843',
+701 silly get     'accept-ranges': 'bytes',
+701 silly get     date: 'Sat, 21 May 2016 07:58:11 GMT',
+701 silly get     via: '1.1 varnish',
+701 silly get     age: '0',
+701 silly get     connection: 'keep-alive',
+701 silly get     'x-served-by': 'cache-sin6926-SIN',
+701 silly get     'x-cache': 'MISS',
+701 silly get     'x-cache-hits': '0',
+701 silly get     'x-timer': 'S1463817490.170136,VS0,VE987',
+701 silly get     vary: 'Accept-Encoding' } ]
+702 verbose get saving koa-flash to C:\Users\shado\AppData\Roaming\npm-cache\registry.npmjs.org\koa-flash\.cache.json
+703 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+704 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\co-cache\-\co-cache-2.0.1.tgz not in flight; adding
+705 verbose addTmpTarball already have metadata; skipping unpack for co-cache@2.0.1
+706 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+707 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-gzip\0.1.0\package\package.json written
+708 http fetch 200 https://registry.npmjs.org/koa/-/koa-1.1.2.tgz
+709 silly resolveWithNewModule config-lite@1.2.0 checking installable status
+710 silly cache add args [ 'config-lite@1.2.0', null ]
+711 verbose cache add spec config-lite@1.2.0
+712 silly cache add parsed spec Result {
+712 silly cache add   raw: 'config-lite@1.2.0',
+712 silly cache add   scope: null,
+712 silly cache add   name: 'config-lite',
+712 silly cache add   rawSpec: '1.2.0',
+712 silly cache add   spec: '1.2.0',
+712 silly cache add   type: 'version' }
+713 silly addNamed config-lite@1.2.0
+714 verbose addNamed "1.2.0" is a plain semver version for config-lite
+715 silly mapToRegistry name config-lite
+716 silly mapToRegistry using default registry
+717 silly mapToRegistry registry https://registry.npmjs.org/
+718 silly mapToRegistry data Result {
+718 silly mapToRegistry   raw: 'config-lite',
+718 silly mapToRegistry   scope: null,
+718 silly mapToRegistry   name: 'config-lite',
+718 silly mapToRegistry   rawSpec: '',
+718 silly mapToRegistry   spec: 'latest',
+718 silly mapToRegistry   type: 'tag' }
+719 silly mapToRegistry uri https://registry.npmjs.org/config-lite
+720 verbose addNameVersion registry:https://registry.npmjs.org/config-lite not in flight; fetching
+721 silly fetchAndShaCheck shasum 926268f9affd1acf87f6be2d4b6ad46f8576c39f
+722 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\koa\-\koa-1.1.2.tgz not in flight; adding
+723 verbose addTmpTarball already have metadata; skipping unpack for koa@1.1.2
+724 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+725 verbose get https://registry.npmjs.org/config-lite not expired, no request
+726 silly resolveWithNewModule koa-flash@1.0.0 checking installable status
+727 silly cache add args [ 'koa-flash@1.0.0', null ]
+728 verbose cache add spec koa-flash@1.0.0
+729 silly cache add parsed spec Result {
+729 silly cache add   raw: 'koa-flash@1.0.0',
+729 silly cache add   scope: null,
+729 silly cache add   name: 'koa-flash',
+729 silly cache add   rawSpec: '1.0.0',
+729 silly cache add   spec: '1.0.0',
+729 silly cache add   type: 'version' }
+730 silly addNamed koa-flash@1.0.0
+731 verbose addNamed "1.0.0" is a plain semver version for koa-flash
+732 silly mapToRegistry name koa-flash
+733 silly mapToRegistry using default registry
+734 silly mapToRegistry registry https://registry.npmjs.org/
+735 silly mapToRegistry data Result {
+735 silly mapToRegistry   raw: 'koa-flash',
+735 silly mapToRegistry   scope: null,
+735 silly mapToRegistry   name: 'koa-flash',
+735 silly mapToRegistry   rawSpec: '',
+735 silly mapToRegistry   spec: 'latest',
+735 silly mapToRegistry   type: 'tag' }
+736 silly mapToRegistry uri https://registry.npmjs.org/koa-flash
+737 verbose addNameVersion registry:https://registry.npmjs.org/koa-flash not in flight; fetching
+738 silly mapToRegistry name config-lite
+739 silly mapToRegistry using default registry
+740 silly mapToRegistry registry https://registry.npmjs.org/
+741 silly mapToRegistry data Result {
+741 silly mapToRegistry   raw: 'config-lite',
+741 silly mapToRegistry   scope: null,
+741 silly mapToRegistry   name: 'config-lite',
+741 silly mapToRegistry   rawSpec: '',
+741 silly mapToRegistry   spec: 'latest',
+741 silly mapToRegistry   type: 'tag' }
+742 silly mapToRegistry uri https://registry.npmjs.org/config-lite
+743 verbose addRemoteTarball https://registry.npmjs.org/config-lite/-/config-lite-1.2.0.tgz not in flight; adding
+744 verbose addRemoteTarball [ 'https://registry.npmjs.org/config-lite/-/config-lite-1.2.0.tgz',
+744 verbose addRemoteTarball   'd39de5d4c525b9e962065fcb815a959829b3d59d' ]
+745 silly cache afterAdd koa-router-cache@1.3.1
+746 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-router-cache\1.3.1\package\package.json not in flight; writing
+747 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+748 silly cache afterAdd co-cache@2.0.1
+749 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\co-cache\2.0.1\package\package.json not in flight; writing
+750 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+751 verbose get https://registry.npmjs.org/koa-flash not expired, no request
+752 info retry fetch attempt 1 at 15:58:11
+753 info attempt registry request try #1 at 15:58:11
+754 http fetch GET https://registry.npmjs.org/config-lite/-/config-lite-1.2.0.tgz
+755 silly mapToRegistry name koa-flash
+756 silly mapToRegistry using default registry
+757 silly mapToRegistry registry https://registry.npmjs.org/
+758 silly mapToRegistry data Result {
+758 silly mapToRegistry   raw: 'koa-flash',
+758 silly mapToRegistry   scope: null,
+758 silly mapToRegistry   name: 'koa-flash',
+758 silly mapToRegistry   rawSpec: '',
+758 silly mapToRegistry   spec: 'latest',
+758 silly mapToRegistry   type: 'tag' }
+759 silly mapToRegistry uri https://registry.npmjs.org/koa-flash
+760 verbose addRemoteTarball https://registry.npmjs.org/koa-flash/-/koa-flash-1.0.0.tgz not in flight; adding
+761 verbose addRemoteTarball [ 'https://registry.npmjs.org/koa-flash/-/koa-flash-1.0.0.tgz',
+761 verbose addRemoteTarball   '690f7d10a25130c530dac30b7812d5cf6f74d68d' ]
+762 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-router-cache\1.3.1\package\package.json written
+763 info retry fetch attempt 1 at 15:58:11
+764 info attempt registry request try #1 at 15:58:11
+765 http fetch GET https://registry.npmjs.org/koa-flash/-/koa-flash-1.0.0.tgz
+766 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\co-cache\2.0.1\package\package.json written
+767 silly cache afterAdd koa@1.1.2
+768 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa\1.1.2\package\package.json not in flight; writing
+769 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+770 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa\1.1.2\package\package.json written
+771 http fetch 200 https://registry.npmjs.org/config-lite/-/config-lite-1.2.0.tgz
+772 silly fetchAndShaCheck shasum d39de5d4c525b9e962065fcb815a959829b3d59d
+773 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\config-lite\-\config-lite-1.2.0.tgz not in flight; adding
+774 verbose addTmpTarball already have metadata; skipping unpack for config-lite@1.2.0
+775 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+776 http fetch 200 https://registry.npmjs.org/koa-flash/-/koa-flash-1.0.0.tgz
+777 silly fetchAndShaCheck shasum 690f7d10a25130c530dac30b7812d5cf6f74d68d
+778 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\koa-flash\-\koa-flash-1.0.0.tgz not in flight; adding
+779 verbose addTmpTarball already have metadata; skipping unpack for koa-flash@1.0.0
+780 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+781 silly cache afterAdd config-lite@1.2.0
+782 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\config-lite\1.2.0\package\package.json not in flight; writing
+783 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+784 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\config-lite\1.2.0\package\package.json written
+785 silly cache afterAdd koa-flash@1.0.0
+786 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-flash\1.0.0\package\package.json not in flight; writing
+787 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+788 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-flash\1.0.0\package\package.json written
+789 http fetch 200 https://registry.npmjs.org/koa-generic-session-mongo/-/koa-generic-session-mongo-0.2.4.tgz
+790 silly fetchAndShaCheck shasum 9a83af6fdc2556459a1ec20ccf0fb5ee7fd13820
+791 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\koa-generic-session-mongo\-\koa-generic-session-mongo-0.2.4.tgz not in flight; adding
+792 verbose addTmpTarball already have metadata; skipping unpack for koa-generic-session-mongo@0.2.4
+793 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+794 http fetch 200 https://registry.npmjs.org/co-ejs/-/co-ejs-1.5.2.tgz
+795 silly fetchAndShaCheck shasum 1b98f94cc895c52a0e2bf0bb71ffa3236f3e1756
+796 verbose addTmpTarball C:\Users\shado\AppData\Local\Temp\npm-8692-68cc16f8\registry.npmjs.org\co-ejs\-\co-ejs-1.5.2.tgz not in flight; adding
+797 verbose addTmpTarball already have metadata; skipping unpack for co-ejs@1.5.2
+798 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+799 silly cache afterAdd koa-generic-session-mongo@0.2.4
+800 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-generic-session-mongo\0.2.4\package\package.json not in flight; writing
+801 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+802 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\koa-generic-session-mongo\0.2.4\package\package.json written
+803 silly cache afterAdd co-ejs@1.5.2
+804 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\co-ejs\1.5.2\package\package.json not in flight; writing
+805 verbose correctMkdir C:\Users\shado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+806 verbose afterAdd C:\Users\shado\AppData\Roaming\npm-cache\co-ejs\1.5.2\package\package.json written
+807 silly rollbackFailedOptional Starting
+808 silly rollbackFailedOptional Finishing
+809 silly runTopLevelLifecycles Starting
+810 silly runTopLevelLifecycles Finishing
+811 silly install printInstalled
+812 verbose stack Error: No compatible version found: koa-static-cache@0.3.0
+812 verbose stack Valid install targets:
+812 verbose stack 3.1.7, 3.1.6, 3.1.5, 3.1.4, 3.1.3, 3.1.2, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 2.0.2, 2.0.1, 2.0.0, 1.2.0, 1.1.0, 1.0.10, 1.0.9, 1.0.8, 1.0.7, 1.0.6, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 0.1.1, 0.1.0, 0.0.1
+812 verbose stack
+812 verbose stack     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:157:16)
+812 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+812 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:19:8
+812 verbose stack     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:168:7)
+812 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
+812 verbose stack     at FSReqWrap.oncomplete (fs.js:117:15)
+813 verbose cwd C:\Users\shado\WebstormProjects\club
+814 error Windows_NT 10.0.10586
+815 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+816 error node v6.2.0
+817 error npm  v3.8.9
+818 error No compatible version found: koa-static-cache@0.3.0
+818 error Valid install targets:
+818 error 3.1.7, 3.1.6, 3.1.5, 3.1.4, 3.1.3, 3.1.2, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 2.0.2, 2.0.1, 2.0.0, 1.2.0, 1.1.0, 1.0.10, 1.0.9, 1.0.8, 1.0.7, 1.0.6, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 0.1.1, 0.1.0, 0.0.1
+819 error If you need help, you may report this error at:
+819 error     <https://github.com/npm/npm/issues>
+820 verbose exit [ 1, true ]

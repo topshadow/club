@@ -24,16 +24,21 @@ var renderConf = require(config.renderConf);
 //->router-cache->coa-gzip->render->
 app.use(errorhanlder());
 app.use(bodyparser());
-app.use(staticCache());
+app.use(staticCache(config.staticCacheConf));
 app.use(logger());
-app.use(session({store:new MongosStore(config.mongodb)}));
-app.use(flash());
+// app.use(session({store:new MongosStore(config.mongodb)}));
+// app.use(flash());
 // app.use(scheme(config.schemeConf));
 // app.use(routerCache(app,config.renderConf));
-app.use(gzip());
-// app.use(render(app,renderConf));
+// app.use(gzip());
+app.use(render(app,renderConf));
 app.use(router(app,config.routerConf));
-app.listen(config.port,function(){
-    console.log('Server listening on:',config.port);
-});
 
+
+if(module.parent){
+    module.exports = app.callback();
+}else {
+    app.listen(config.port, function () {
+        console.log('Server listening on:', config.port);
+    });
+}

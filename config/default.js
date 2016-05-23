@@ -8,7 +8,7 @@ module.exports={
     schemeConf:path.join(__dirname,'./default.scheme'),
     staticCacheConf:path.join(__dirname,'../theme/publices'),
     renderConf:path.join(__dirname,'../theme/config'),
-    routerConf:'./routes',
+    routerConf:"routes",
     routerCacheConf:{
         '/':{
             expire:10*1000,

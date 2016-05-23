@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>N-club</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.0/semantic.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/jquery-1.11.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.0/semantic.min.js"></script>
+</head>
+<body>
+<div class="ui fixed menu navbar">
+    <div class="container">
+        <a href="/" class="item">论坛</a>
+        <div class="item">这是一个论坛</div>
+        <div class="right menu">
+
+            <a href="/logout" class="item">登出</a>
+
+            <a href="/signup" class="item">注册</a>
+            <a href="/signin" class="item">登录</a>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="container">
+    <div class="ui two column centered grid">
+        <div class="right floated left aligned four wide column">
+            <!--UserCard -->
+            <div class="ui cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="userCard">
+                            <img src="<%=: userInfo.email | gravatar %>">
+                            <div class="info">
+                                <p><%= userInfo.name %></p>
+                                <p class="meta"><%= userInfo.gender %></p>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <%= userInfo.signature %>
+                        </div>
+                    </div>
+                    <% if ($this.session.user) { %>
+                    <div class="extra content">
+                        <a href="/user/<%= userInfo.name %>" class=""><i class="home icon"></i>个人主页</a>
+                        <a href="#" class="right floated"><i class="setting icon"></i>设置</a>
+                    </div>
+                    <% } else { %>
+                    <div class="extra content">
+                        <a class=""><i class="send icon"></i>私信</a>
+                        <a class="right floated"><i class="plus icon"></i>加好友</a>
+                    </div>
+                    <% } %>
+                </div>
+            </div>
+            <!--/UserCard -->
+
+            <!--createCard -->
+            <div class="ui cards">
+                <div class="card">
+                    <div class="content">
+                        <a class=" ui green button fluid" href="/create.html">发表话题</a>
+                    </div>
+                </div>
+            </div>
+            <!--/createCard-->
+
+            <% var name = $this.session.user.name; %>
+
+            <!--noreplyCard-->
+            <div class="ui cards">
+                <div class="card">
+                    <div class="content">
+                        <b>无人回复的话题</b>
+                        <div class="ui divider"></div>
+                        <div class="ui list">
+                            <% noReplyTopics.forEach(function (topic) { %>
+                            <a class="item summary" href="/topic/<%= topic._id %>"><%= topic.title %></a>
+                            <% })%>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/noreplyCard-->
+
+            <!--linkCard-->
+            <div class="ui cards">
+                <div class="card">
+                    <div class="content">
+                        <b>友情链接</b>
+                        <div class="ui divider"></div>
+                        <div class="ui list">
+                            <div class="item">
+                                <a href="https://cnodejs.org/" target="_blank"><img src="/images/cnode.png" style="width:100%"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/linkCard-->
+
+        </div>
+        <div class="left floated  twelve wide column">
+            <div class="ui top attached tabular menu">
+                <a href="/" class="item active" >全部</a>
+                <a href="/" class="item">问答</a>
+                <a href="/" class="item">分享</a>
+                <a href="/" class="item">吐槽</a>
+                <a href="/" class="item">招聘</a>
+            </div>
+
+            <!--list-->
+            <div class="ui bottom attached active tab segment">
+                <div class="ui list">
+                    <% var topicsLen = topics.length; %>
+                    <% topics.forEach(function (topic, index) { %>
+                    <div class="item">
+                        <a class="ui image" href="/user/<%= topic.user.name %>"><img src="<%=: topic.user.email | gravatar %>"></a>
+                        <div class="content">
+                            <a class="header" href="/topic/<%= topic._id %>"><%= topic.title %></a>
+                            <p class="topic"><a href="/user/<%= topic.user.name %>"><b><%= topic.user.name %></b></a> 发起了话题 • <%= topic.pv %> 次浏览 • <%= topic.comment %> 个回复 • <%=: topic.updated_at | fromNow %> • <%= topic.tab %></p>
+                        </div>
+                    </div>
+                    <% if (topicsLen > index + 1) { %>
+                    <div class="ui divider"></div>
+                    <% } %>
+                    <%  }); %>
+                </div>
+            </div>
+            <!--/list-->
+    <!--pagination-->
+            <%
+            var count = yield $Topic.getTopicsCount($this.query.tab);
+            var pages = Math.ceil(count / 10);
+            var page = +$this.query.p || 1;
+            var tab = $this.query.tab || '';
+            var items = [page-2, page-1, page, page+1, page+2];
+            var prePage = '?tab=' + tab + '&p=' + (page - 1);
+            var nextPage = '?tab=' + tab + '&p=' + (page + 1);
+            %>
+            <div class="ui pagination menu">
+                <% if (page && page > 1) { %>
+                <a class="icon item" href="?tab=<%= tab %>&p=<%= page - 1 %>">
+                    <i class="left arrow icon"></i>
+                </a>
+                <% } %>
+
+                <% items.forEach(function (item) { %>
+                <% if (item && (item > 0) && (item <= pages) && (pages > 1)) { %>
+                <a class="<%= (page == item) ? 'active': '' %> item" href="?tab=<%= tab %>&p=<%= item %>"><%= item %></a>
+                <% } %>
+                <% }); %>
+
+                <% if (page && page < pages) { %>
+                <a class="icon item" href="?tab=<%= tab %>&p=<%= page + 1 %>">
+                    <i class="right arrow icon"></i>
+                </a>
+                <% } %>
+            </div>
+            <!--/pagination-->
+        </div>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+    $('.message .close').on('click', function() {
+        $(this).closest('.message').fadeOut();
+    });
+    $.ajax({
+        url:"/index",
+        method:'post',
+        dataType:'json',
+        success:function(rtn){
+
+            console.log(rtn);
+        }
+    });
+
+
+</script>
+</body>
+</html>
